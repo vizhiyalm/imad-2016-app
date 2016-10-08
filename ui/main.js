@@ -14,6 +14,6 @@ button.onclick= function(){
         }
     };
     // make the request
-    request.open('GET','http://vizhiyalm.imad.hasura-app.io',true);
+    request.open('GETu','http://vizhiyalm.imad.hasura-app.io',true);
     request.send(null);
 };
