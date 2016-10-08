@@ -18,8 +18,9 @@ body {
     font-size: 50px;
 }
 
-.bold {
+.content {
     font-weight: bold;
+    font-size: 20px;
 }
 
 .img-medium {
