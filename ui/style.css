@@ -5,11 +5,12 @@ body {
 }
 
 .menu{
-    padding-right:90px;
     font-size:20px;
-    
 }
 
+.menu span{
+    padding-right:30px;
+}
 .center {
     text-align: center;
 }
