@@ -4,6 +4,10 @@ body {
     margin-top: 75px;
 }
 
+.menu{
+    padding-right:30px;
+}
+
 .center {
     text-align: center;
 }
