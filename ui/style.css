@@ -2,10 +2,12 @@ body {
     font-family: sans-serif;
     background-color: lightgrey;
     margin-top: 75px;
+    text-align: center;
 }
 
 .menu{
     font-size:20px;
+    
 }
 
 .menu span{
