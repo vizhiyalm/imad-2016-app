@@ -21,6 +21,7 @@ body {
 .content {
     font-weight: bold;
     font-size: 20px;
+    margin:10px 100px;
 }
 
 .button {
