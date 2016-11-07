@@ -8,7 +8,7 @@ body {
 .menu{
 	
 	 text-align: right;
-	 font-family: League Spartan;
+	 /*font-family: League Spartan;*/
 
 }
 
@@ -22,7 +22,7 @@ body {
 
 .name h1 {
 	font-size: 52px;
-	font-family: League Spartan;
+	/*font-family: League Spartan;*/
 	padding: 115px 0 0 0px;
 	
 }
@@ -38,5 +38,5 @@ body {
     display:block; 
 	text-transform:none; 
 	color:#fff; text-decoration:none; text-align:center;
-	line-height:32px; margin:20px 0 0 0; font-size:18px; padding-top: 7px;
-	font-family: League Spartan; }
+	line-height:32px; margin:20px 0 0 0; font-size:18px; padding: 7px;
+	/*font-family: League Spartan; */}
