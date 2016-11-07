@@ -1,11 +1,14 @@
 body {
     font-family: raleway;
     margin-top: 35px;
+    color: #252627
+
 }
 
 .menu{
 	
 	 text-align: right;
+	 font-family: League Spartan;
 
 }
 
@@ -13,12 +16,27 @@ body {
 	padding-right: 50px;
 }
 
-.name {
-	font-size: 40px;
-	font-family: League Spartan;
-	padding: 50px 0 0 20px;
+.name{
+	padding-left: 80px;
 }
 
-.menu+div{
-	color:green;
+.name h1 {
+	font-size: 52px;
+	font-family: League Spartan;
+	padding: 115px 0 0 0px;
+	
 }
+.name span{
+	color: #f06449;
+}
+
+
+
+.name a{ background-color:#f06449;
+    width:140px; 
+	height:38px;
+    display:block; 
+	text-transform:none; 
+	color:#fff; text-decoration:none; text-align:center;
+	 line-height:32px; margin:20px 0px 0 0; font-size:18px; padding-top: 7px;
+	 font-family: League Spartan; }}
