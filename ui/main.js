@@ -17,3 +17,30 @@ button.onclick= function(){
     request.open('GET','http://vizhiyalm.imad.hasura-app.io/counter',true);
     request.send(null);
 };*/
+
+	$(window).preloader({
+  delay: 1500
+});
+  $(window).preloader({
+
+  // preloader selector
+
+  selector: '#preloader',
+
+  // Preloader container holder
+
+  type: 'document',
+
+  // 'fade' or 'remove'
+
+  removeType: 'fade',
+
+  // fade duration
+
+  fadeDuration: 750,
+
+  // auto disimss after x milliseconds
+
+  delay: 0
+
+});
