@@ -12,7 +12,7 @@ ul,li {list-style-type:none;}
 a,h3{font-size: 16px; color: #333333; font-weight: bold;letter-spacing: 1px}
 
 .ftr a{padding-right: 25px; font-weight:bold;}
-a.sel{color: #33c2e4;}
+.sel{color: #33c2e4;}
 a:hover{color: #33c2e4;}
 .menu>ul:first-child {border-top: 1px solid #f4f4f4;}
 li{border-bottom: 1px solid #f4f4f4; padding: 10px 0; font-size: 14px;}
