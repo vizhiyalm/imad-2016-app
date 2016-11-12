@@ -18,6 +18,11 @@ app.get('/artiOne', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'artiOne.html'));
 });
 
+app.get('/ui/clrlogo.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'clrlogo.png'));
+});
+
+
 app.get('/ui/behance.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'behance.png'));
 });
@@ -30,7 +35,15 @@ app.get('/ui/linkedin.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'linkedin.png'));
 });
 
-app.get('/ui/style.css', function (req, res) {
+app.get('/ui/school.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'school.png'));
+});
+
+app.get('/ui/hospital.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'hospital.png'));
+});
+
+et('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
