@@ -23,11 +23,11 @@ app.get('/ui/behance.png', function (req, res) {
 });
 
 app.get('/ui/twitter.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'twitter.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'twitter.png'));
 });
 
 app.get('/ui/linkedin.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'linkedin.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'linkedin.png'));
 });
 
 app.get('/ui/style.css', function (req, res) {
