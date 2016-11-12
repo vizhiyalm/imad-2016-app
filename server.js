@@ -18,21 +18,22 @@ app.get('/artiOne', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'artiOne.html'));
 });
 
-app.get('/artiTwo', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'artiTwo.html'));
+app.get('/ui/behance.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'behance.png'));
 });
 
-app.get('/artiThree', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'artiThree.html'));
+app.get('/ui/twitter.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'twitter.html'));
+});
+
+app.get('/ui/linkedin.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'linkedin.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/ui/behance.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'behance.png'));
-});
 
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
