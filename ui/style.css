@@ -17,26 +17,26 @@ a:hover{color: #33c2e4;}
 .menu>ul:first-child {border-top: 1px solid #f4f4f4;}
 li{border-bottom: 1px solid #f4f4f4; padding: 10px 0; font-size: 14px;}
 
-.left{width:20%;float: left;margin: 0 2% 0 0; border-right: 1px solid #f4f4f4;}
+.left{width:20%;float: left;margin: 0 2% 0 0; }
 .left>div{padding-top: 40px ;}
-.left h2{padding-bottom: 2px; padding-top: 5px;}
-.left h5{padding-bottom: 20px; font-weight: normal;}
+/*.left h2{padding-bottom: 2px; padding-top: 5px;}*/
+/*.left h5{padding-bottom: 20px; font-weight: normal;}*/
 
 .link img{height: 30px;width: 30px; margin-left: 10px; }
 .name div{padding-left:33px;}
 /*.name img:first-child{padding-left:10px;} background-color: yellow;*/
 
-.about h3{padding-bottom: 10px;}
+/*.about h3{padding-bottom: 10px;}*/
 p{font-size: 15px;}
 
 .right{background-color: #f8f8f8; width: 77%; margin:30px 0 ;overflow: hidden;}
 
 .ftr{text-align: center;margin: 20px ;}
-.ftr a,.work h3{background-color: #fff;padding: 10px ;border: 1px solid #f4f4f4; margin: 1px;}
+.ftr a{background-color: #fff;padding: 10px ;border: 1px solid #f4f4f4; margin: 1px;}
 
 .work span{background-color: #fff;margin-bottom: 20px;border: 1px solid #f4f4f4;}
-.work h5{font-weight: normal;padding-bottom:  13px ;padding-left: 15px;}
-.work h4{padding-top:  8px ; padding-left: 15px;}
+/*.work h5{font-weight: normal;padding-bottom:  13px ;padding-left: 15px;}*/
+/*.work h4{padding-top:  8px ; padding-left: 15px;}*/
 
 
 .one span{float: left;width: 49%;}
