@@ -3,6 +3,8 @@ body{  margin: 0 auto; font-family: raleway; color: #333333;}
 a {text-decoration:none; color: #444444;}
 ul,li {list-style-type:none;}
 
+.container{ margin-top:35px;}
+
 .menu{
 	
 	 text-align: right;
