@@ -1,46 +1,16 @@
-body {
-    font-family: sans-serif;
-    margin-top: 60px;
+/** {margin:0; padding:0;}*/
+body{  margin: 0 auto; font-family: raleway; color: #333333;}
+a {text-decoration:none; color: #444444;}
+ul,li {list-style-type:none;}
+
+.menu{
+	
+	 text-align: right;
+	 /*font-family: League Spartan;*/
+	 padding-right: 50px;
+
 }
 
-.center {
-    text-align: center;
-}
-
-.text-big {
-    font-size: 300%;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.img-medium {
-    height: 200px;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    color: #4a4a4a;
-    font-family: sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.comment {
-    margin-left: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ccc;
-}
-
-.commenter {
-    font-style: italic;
-    font-size: 0.8em;
-}
-
-#comment_form {
-    margin-left: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ccc;
+.menu span{
+	padding-right: 50px;
 }
