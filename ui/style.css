@@ -7,13 +7,13 @@ ul,li {list-style-type:none;}
 /*.top{height:55px;padding: 10px 0;border-bottom: #ebebeb 1px solid; position: relative;}
 .top float: left;}
 .top h1{letter-spacing: 6px;font-size: 16px;float: left;position: absolute;top: 60px;left: 0;}*/
-.left img{height: 45px; width: 45px;padding-top: 30px;  }
+.logo{height: 45px; width: 45px;padding-top: 30px;  }
 
 a,h3{font-size: 16px; color: #333333; font-weight: bold;letter-spacing: 1px}
 
 .ftr{padding: 20px 0 10px 0;}
 .ftr a{padding-right: 25px; font-weight:bold;}
-a.sel{color: #33c2e4;}
+.sel{color: #33c2e4;}
 a:hover{color: #33c2e4;}
 .menu>ul:first-child {border-top: 1px solid #f1f1f1;}
 li{border-bottom: 1px solid #f0f0f0; padding: 10px 0; font-size: 14px;}
