@@ -15,13 +15,13 @@ a:hover{color: #33c2e4;}
 li{border-bottom: 1px solid #f0f0f0; padding: 10px 0; font-size: 14px;}
 
 .left{position: fixed; width:13.5%; float: left ;margin-left:  4% ;background-color:#ffeb3b; }
-.left div{padding-top: 40px ;background-color:#444444;}
+.left div{padding-top: 40px ;}
 .innerleft{padding:20px;}
  h2{padding-bottom: 2px; padding-top: 5px;}
  h5{padding-bottom: 20px; font-weight: normal; }
 
 .link{padding-left: 30px;}
-.link img{height: 30px;width: 30px; margin-left: 10px; }
+.link img{height: 30px;width: 30px; margin-left: 9px; }
 
 
 .name div{padding-left:33px;}
