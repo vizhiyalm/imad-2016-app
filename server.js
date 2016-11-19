@@ -33,7 +33,7 @@ function createTemplate (data) {
               <div>
                   <a href="/">Home</a>
               </div>
-              <hr/>
+              
               <h3>
                   ${heading}
               </h3>
@@ -43,7 +43,7 @@ function createTemplate (data) {
               <div>
                 ${content}
               </div>
-              <hr/>
+             
               <h4>Comments</h4>
               <div id="comment_form">
               </div>
