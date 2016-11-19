@@ -33,7 +33,7 @@ li{border-bottom: 1px solid #f0f0f0; padding: 10px 0; font-size: 14px;}
 .name div{padding-left:33px;}
 /*.name img:first-child{padding-left:10px;} background-color: yellow;*/
 
-.about h3{padding-bottom: 10px;}
+.about{padding-bottom: 10px;}
 p{font-size: 15px;}
 
 
@@ -41,7 +41,7 @@ p{font-size: 15px;}
 .right{ overflow: hidden;}
 #portfolioPage{   margin-left: 264px;padding-top: 30px; padding-left: 16px;background-color: #f8f8f8;}
 .ftr{text-align: center;margin: 20px ;}
-.ftr a,#blogPage>div,.work h3,#profilePage>div{background-color: #fff;padding: 10px ;border: 1px solid #f0f0f0; margin: 1px;}
+.ftr a,#blogPage>div,.workhd,#profilePage>div{background-color: #fff;padding: 10px ;border: 1px solid #f0f0f0; margin: 1px;}
 
 .work span{background-color: #fff;margin-bottom: 20px;border: 1px solid #f0f0f0;}
 .work h5{font-weight: normal;padding-bottom:  13px ;padding-left: 15px;}
