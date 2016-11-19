@@ -13,7 +13,7 @@
    res.sendFile(path.join(__dirname, 'ui', 'style.css'));
  }); 
  
-app.use("/images", express.static(__dirname+'/ui/images')); 
+app.use("/images", express.static(__dirname+'/images')); 
 
 //   app.get('/ui/main.js', function (req, res) {
 //   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
