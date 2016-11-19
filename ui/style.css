@@ -1,18 +1,77 @@
-/** {margin:0; padding:0;}*/
-body{  margin: 0 auto; font-family: raleway; color: #333333;}
+* {margin:0; padding:0;}
+body{ width:1124px ; margin: 0 auto; font-family: raleway; color: #333333;background-color: #f8f8f8;}
 a {text-decoration:none; color: #444444;}
 ul,li {list-style-type:none;}
 
-.container{ margin-top:35px;}
 
-.menu{
-	
-	 text-align: right;
-	 /*font-family: League Spartan;*/
-	 padding-right: 50px;
+/*.top{height:55px;padding: 10px 0;border-bottom: #ebebeb 1px solid; position: relative;}
+.top float: left;}
+.top h1{letter-spacing: 6px;font-size: 16px;float: left;position: absolute;top: 60px;left: 0;}*/
+.left img{height: 45px; width: 45px;padding-top: 30px;  }
 
-}
+a,h3{font-size: 16px; color: #333333; font-weight: bold;letter-spacing: 1px}
 
-.menu span{
-	padding-right: 50px;
-}
+.ftr{padding: 20px 0 10px 0;}
+.ftr a{padding-right: 25px; font-weight:bold;}
+a.sel{color: #33c2e4;}
+a:hover{color: #33c2e4;}
+.menu>ul:first-child {border-top: 1px solid #f1f1f1;}
+li{border-bottom: 1px solid #f0f0f0; padding: 10px 0; font-size: 14px;}
+
+.left{position: fixed; width:13.5%; float: left ;margin-left:  4% ; border-right: 1px solid #f0f0f0;border-left: 1px solid #f0f0f0; padding: 0 20px;}
+.left>div{padding-top: 40px ;}
+.left h2{padding-bottom: 2px; padding-top: 5px;}
+.left h5{padding-bottom: 20px; font-weight: normal; }
+
+.link{padding-left: 30px;}
+.link img{height: 30px;width: 30px; margin-left: 10px; }
+/*.link img:hover{background: #33c2e4;}
+.bhc>img:hover{src:"images/clrbehance.jpg"; }
+.lkn img:hover{src:"images/clrlinkedin.jpg";}
+.twr img:hover{src:"images/clrtwitter.jpg";}*/
+
+.name div{padding-left:33px;}
+/*.name img:first-child{padding-left:10px;} background-color: yellow;*/
+
+.about h3{padding-bottom: 10px;}
+p{font-size: 15px;}
+
+
+
+.right{ overflow: hidden;}
+#portfolioPage{   margin-left: 264px;padding-top: 30px; padding-left: 16px;background-color: #f8f8f8;}
+.ftr{text-align: center;margin: 20px ;}
+.ftr a,#blogPage>div,.work h3,#profilePage>div{background-color: #fff;padding: 10px ;border: 1px solid #f0f0f0; margin: 1px;}
+
+.work span{background-color: #fff;margin-bottom: 20px;border: 1px solid #f0f0f0;}
+.work h5{font-weight: normal;padding-bottom:  13px ;padding-left: 15px;}
+.work h4{padding-top:  8px ; padding-left: 15px;}
+/*.work div:last-child{clear: both; background-color: red;}*/
+
+
+.one span{float: left;width: 49%;}
+
+.one img{width: 100%;}
+.one span:last-child{float: right;}
+/*
+#profilePage{background-color: #f8f8f8; margin-left: 270px;padding-top: 30px;}
+*/
+#profilePage img{height: 200px; padding: 10px; float: left;}
+.content{margin-top: 20px !important;background-color: red;}
+.content div{ margin-left: 180px;}
+.profileAbout{padding-top: 10px;}
+.profileAbout p{padding-top: 20px;}
+
+#blogPage,#profilePage{  margin-left: 266px; display: none;background-color: #f8f8f8;padding-top: 30px;  padding-left: 14px; }
+#blogPage input{width: 500px; border: none;background-color: #fff;text-overflow: ellipsis;}
+#blogPage img{height: 40px; width: 40px;}
+
+.bright{ width:77%; float: left; background-color: #f3f3f3; margin:30px 0 ;}
+.bright div{background-color: #fff;border: 1px solid #ebebeb; padding: 30px;  margin-left: 20px;}
+
+.logindim{ height: 300px; width: 300px;}
+
+ 
+
+#cat{display: block;}
+
