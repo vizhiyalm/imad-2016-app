@@ -3,7 +3,7 @@ body{ width:1124px ; margin: 0 auto; font-family: raleway; color: #333333;backgr
 a {text-decoration:none; color: #444444;}
 ul,li {list-style-type:none;}
 
-.mainDiv{padding-top: 30px;}
+#mainDiv{padding-top: 30px;}
 
 a,h3{font-size: 16px; color: #333333; font-weight: bold;letter-spacing: 1px}
 
@@ -16,6 +16,7 @@ li{border-bottom: 1px solid #f0f0f0; padding: 10px 0; font-size: 14px;}
 
 .left{position: fixed; width:13.5%; float: left ;margin-left:  4% ;background-color:#ffeb3b; }
 .left>div{padding-top: 40px ;}
+.innerleft{padding:40px;}
  h2{padding-bottom: 2px; padding-top: 5px;}
  h5{padding-bottom: 20px; font-weight: normal; }
 
