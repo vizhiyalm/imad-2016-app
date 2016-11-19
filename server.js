@@ -8,8 +8,13 @@
  app.get('/', function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'index.html'));
  });
+
+ app.get('ui/style.css', function (req, res) {
+   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+ }); 
  
-app.use("/img", express.static(__dirname+'/ui/img')); 
+app.use("/images", express.static(__dirname+'/ui/images')); 
+
 //   app.get('/ui/main.js', function (req, res) {
 //   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 //  });
