@@ -1,4 +1,4 @@
-*{margin:0; padding:0;}
+/**{margin:0; padding:0;}*/
 body{ width:1124px ; margin: 0 auto; font-family: raleway; color: #333333;background-color: #f8f8f8;}
 a {text-decoration:none; color: #444444;}
 ul,li {list-style-type:none;}
@@ -18,10 +18,10 @@ a:hover{color: #33c2e4;}
 .menu>ul:first-child {border-top: 1px solid #f1f1f1;}
 li{border-bottom: 1px solid #f0f0f0; padding: 10px 0; font-size: 14px;}
 
-.left{position: fixed; width:13.5%; float: left ;margin-left:  4% ; border-right: 1px solid #f0f0f0;border-left: 1px solid #f0f0f0; padding: 0 20px;}
-.left>div{padding-top: 40px ;}
-.left h2{padding-bottom: 2px; padding-top: 5px;}
-.left h5{padding-bottom: 20px; font-weight: normal; }
+/*.left{position: fixed; width:13.5%; float: left ;margin-left:  4% ; border-right: 1px solid #f0f0f0;border-left: 1px solid #f0f0f0; padding: 0 20px;}*/
+/*.left>div{padding-top: 40px ;}*/
+/*.left h2{padding-bottom: 2px; padding-top: 5px;}*/
+/*.left h5{padding-bottom: 20px; font-weight: normal; }*/
 
 .link{padding-left: 30px;}
 .link img{height: 30px;width: 30px; margin-left: 10px; }
@@ -44,8 +44,8 @@ p{font-size: 15px;}
 .ftr a,#blogPage>div,.workhd,#profilePage>div{background-color: #fff;padding: 10px ;border: 1px solid #f0f0f0; margin: 1px;}
 
 .work span{background-color: #fff;margin-bottom: 20px;border: 1px solid #f0f0f0;}
-.work h5{font-weight: normal;padding-bottom:  13px ;padding-left: 15px;}
-.work h4{padding-top:  8px ; padding-left: 15px;}
+/*.work h5{font-weight: normal;padding-bottom:  13px ;padding-left: 15px;}*/
+/*.work h4{padding-top:  8px ; padding-left: 15px;}*/
 /*.work div:last-child{clear: both; background-color: red;}*/
 
 
@@ -56,8 +56,8 @@ p{font-size: 15px;}
 /*
 #profilePage{background-color: #f8f8f8; margin-left: 270px;padding-top: 30px;}
 */
-#profilePage img{height: 200px; padding: 10px; float: left;}
-.content{margin-top: 20px !important;background-color: red;}
+#profilePage img{height: 200px;  float: left;}
+.content{margin-top: 20px ;background-color: red;}
 .content div{ margin-left: 180px;}
 .profileAbout{padding-top: 10px;}
 .profileAbout p{padding-top: 20px;}
