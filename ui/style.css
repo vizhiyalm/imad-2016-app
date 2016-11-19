@@ -6,7 +6,7 @@ ul,li {list-style-type:none;}
 
 /*.top{height:55px;padding: 10px 0;border-bottom: #ebebeb 1px solid; position: relative;}*/
 .top {float: left;}
-.top h1{letter-spacing: 6px;font-size: 16px;float: left;position: absolute;top: 60px;left: 0;}
+ h1{letter-spacing: 6px;font-size: 16px;float: left;position: absolute;top: 60px;left: 0;}
 .logo{height: 45px; width: 45px;}
 
 a,h3{font-size: 16px; color: #333333; font-weight: bold;letter-spacing: 1px}
@@ -20,8 +20,8 @@ li{border-bottom: 1px solid #f0f0f0; padding: 10px 0; font-size: 14px;}
 
 /*.left{position: fixed; width:13.5%; float: left ;margin-left:  4% ; border-right: 1px solid #f0f0f0;border-left: 1px solid #f0f0f0; padding: 0 20px;}*/
 .left>div{padding-top: 40px ;}
-.left h2{padding-bottom: 2px; padding-top: 5px;}
-.left h5{padding-bottom: 20px; font-weight: normal; }
+ h2{padding-bottom: 2px; padding-top: 5px;}
+ h5{padding-bottom: 20px; font-weight: normal; }
 
 .link{padding-left: 30px;}
 .link img{height: 30px;width: 30px; margin-left: 10px; }
