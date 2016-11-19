@@ -15,7 +15,7 @@ a:hover{color: #33c2e4;}
 li{border-bottom: 1px solid #f0f0f0; padding: 10px 0; font-size: 14px;}
 
 .left{position: fixed; width:13.5%; float: left ;margin-left:  4% ;background-color:#ffeb3b; }
-.left+div{padding-top: 40px ;}
+.left+div{padding-top: 40px ;background-color:#444444;}
 .innerleft{padding:20px;}
  h2{padding-bottom: 2px; padding-top: 5px;}
  h5{padding-bottom: 20px; font-weight: normal; }
