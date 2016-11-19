@@ -14,7 +14,7 @@ a:hover{color: #33c2e4;}
 .menu>ul:first-child {border-top: 1px solid #f1f1f1;}
 li{border-bottom: 1px solid #f0f0f0; padding: 10px 0; font-size: 14px;}
 
-.left{position: fixed; width:16%; float: left ;margin-left:  4% ;background-color:#ffeb3b;height:550px; }
+.left{position: fixed; width:16.8%; float: left ;margin-left:  4% ;background-color:#ffeb3b;height:550px; }
 .left div{padding-top: 40px ;}
 .innerleft{padding:20px;}
  h2{padding-bottom: 2px; padding-top: 5px;}
