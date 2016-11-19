@@ -26,9 +26,7 @@ li{border-bottom: 1px solid #f0f0f0; padding: 10px 0; font-size: 14px;}
 .link{padding-left: 30px;}
 .link img{height: 30px;width: 30px; margin-left: 10px; }
 .link img:hover{background: #33c2e4;}
-.bhc>img:hover{src:"images/clrbehance.jpg"; }
-.lkn img:hover{src:"images/clrlinkedin.jpg";}
-.twr img:hover{src:"images/clrtwitter.jpg";}
+
 
 .name div{padding-left:33px;}
 /*.name img:first-child{padding-left:10px;} background-color: yellow;*/
