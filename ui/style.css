@@ -3,11 +3,7 @@ body{ width:1124px ; margin: 0 auto; font-family: raleway; color: #333333;backgr
 a {text-decoration:none; color: #444444;}
 ul,li {list-style-type:none;}
 
-
-/*.top{height:55px;padding: 10px 0;border-bottom: #ebebeb 1px solid; position: relative;}*/
-/*.top {float: left; background-color:#ffeb3b;}*/
-/* h1{letter-spacing: 6px;font-size: 16px;float: left;position: absolute;top: 60px;left: 0;}*/
-/*.logo{height: 45px; width: 45px;}*/
+.mainDiv{padding-top: 30px;}
 
 a,h3{font-size: 16px; color: #333333; font-weight: bold;letter-spacing: 1px}
 
@@ -37,7 +33,7 @@ p{font-size: 15px;}
 
 
 .right{ overflow: hidden;}
-#portfolioPage{   margin-left: 264px;padding-top: 30px; padding-left: 16px;background-color: #f8f8f8;}
+#portfolioPage{   margin-left: 264px; padding-left: 16px;background-color: #f8f8f8;}
 .ftr{text-align: center;margin: 20px ;}
 .ftr a,#blogPage>div,.workhd,#profilePage>div{background-color: #fff;padding: 10px ;border: 1px solid #f0f0f0; margin: 1px;}
 
