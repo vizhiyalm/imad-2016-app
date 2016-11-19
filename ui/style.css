@@ -1,4 +1,4 @@
-/**{margin:0; padding:0;}*/
+*{margin:0; padding:0;}
 body{ width:1124px ; margin: 0 auto; font-family: raleway; color: #333333;background-color: #f8f8f8;}
 a {text-decoration:none; color: #444444;}
 ul,li {list-style-type:none;}
@@ -16,7 +16,7 @@ li{border-bottom: 1px solid #f0f0f0; padding: 10px 0; font-size: 14px;}
 
 .left{position: fixed; width:13.5%; float: left ;margin-left:  4% ;background-color:#ffeb3b; }
 .left>div{padding-top: 40px ;}
-.innerleft{padding:40px;}
+.innerleft{padding:20px;}
  h2{padding-bottom: 2px; padding-top: 5px;}
  h5{padding-bottom: 20px; font-weight: normal; }
 
