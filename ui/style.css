@@ -48,7 +48,7 @@ p{font-size: 15px;}
 .one img{width: 100%;}
 .one span:last-child{float: right;}
 
-#profilePage{background-color: #f8f8f8; margin-left: 270px;padding-top: 30px;}
+#profilePage{background-color: #f8f8f8; margin-left: 270px;}
 
 #profilePage img{height: 200px;  float: left;}
 .content{margin-top: 20px ;background-color: red;}
@@ -56,7 +56,7 @@ p{font-size: 15px;}
 .profileAbout{padding-top: 10px;}
 .profileAbout p{padding-top: 20px;}
 
-#blogPage,#profilePage{  margin-left: 266px; display: none;background-color: #f8f8f8;padding-top: 30px;  padding-left: 14px; }
+#blogPage,#profilePage{  margin-left: 266px; display: none;background-color: #f8f8f8 ; padding-left: 14px; }
 #blogPage input{width: 500px; border: none;background-color: #fff;text-overflow: ellipsis;}
 #blogPage img{height: 40px; width: 40px;}
 
