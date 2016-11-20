@@ -118,11 +118,11 @@ function homeTemplate(){
             `;
 
             
-            for (var postID=posts.length-1; postID>=0; postID--){
-                var title = posts[postID].post_title;
-                var subtitle = posts[postID].post_subtitle;
-                var author = posts[postID].post_author;
-                var date = (posts[postID].post_date).toDateString();
+            for (var articleID=article.length-1; articleID>=0; articleID--){
+                var title = article[articleID].article_title;
+                var subtitle = article[articleID].article_subtitle;
+                var author = article[articleID].article_author;
+                var date = (article[articleID].article_date).toDateString();
 
                 htmlTemplate = htmlTemplate + `
 
