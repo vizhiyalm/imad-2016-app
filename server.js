@@ -92,6 +92,62 @@ app.get('/articles/:articleName', function (req, res) {
   });
 });
 
+
+function homeTemplate(){
+    var htmlTemplate = `
+    	
+	<div id="blogPage">
+	   
+        <!-- <span class="ftr" id="cat">
+                <a href="#" class="sel">Category</a>
+                <a href="#" class="designTag">Tag</a>
+                <a href="#" class="codeTag">Date</a>
+        </span>  -->  
+            <h3>My articles</h3>
+        <div class="blog1">
+            <center>Loading...</center>
+            
+
+        </div>
+        
+    </div>
+    <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+            `;
+
+            
+            for (var postID=posts.length-1; postID>=0; postID--){
+                var title = posts[postID].post_title;
+                var subtitle = posts[postID].post_subtitle;
+                var author = posts[postID].post_author;
+                var date = (posts[postID].post_date).toDateString();
+
+                htmlTemplate = htmlTemplate + `
+
+                 <div class="post-preview">
+                            <a href="posts/${postID}">
+                                <h2 class="post-title">
+                                    ${title}
+                                </h2>
+                                <h3 class="post-subtitle">
+                                    ${subtitle}
+                                </h3>
+                            </a>
+                            <p class="post-meta">Posted by <a href="#">${author}</a> on ${date}</p>
+                        </div>
+                        <hr>
+                `
+            }
+
+            htmlTemplate = htmlTemplate + `
+            </div>
+                </div>
+            </div>
+   return htmlTemplate;
+};
+
  app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
  }); 
