@@ -144,9 +144,9 @@ function homeTemplate(){
             htmlTemplate = htmlTemplate + `
             </div>
                 </div>
-            </div>
+            </div>`
    return htmlTemplate;
-};
+}
 
  app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
