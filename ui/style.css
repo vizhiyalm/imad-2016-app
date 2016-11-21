@@ -14,15 +14,15 @@ a:hover{color: #33c2e4;}
 .menu>ul:first-child {border-top: 1px solid #f1f1f1;}
 li{border-bottom: 1px solid #f0f0f0; padding: 10px 0; font-size: 14px;}
 
-.left{position: fixed; width:17%; float: left  ;background-color:white; }
+.left{position: fixed;  float: left ;height: 600px; width: 192px; }
 .left div{padding-top: 40px ;}
-.innerleft{padding:20px; text-align:center;}
+.innerleft{padding:2px; text-align:center;}
  h2{padding-bottom: 2px; padding-top: 5px;}
  h5{padding-bottom: 20px; font-weight: normal; }
 .logo img{height:45px;}
 /*.logo{padding-left:40px;}*/
 
-.leftPanel{height: 550px; width: 192px; border:2px solid #f2f2f2; background-color: #F4F6F7;}
+
 
 button {height:30px;width:70px;border-radius:5px;}
 
