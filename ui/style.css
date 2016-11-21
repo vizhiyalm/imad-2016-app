@@ -14,7 +14,7 @@ a:hover{color: #33c2e4;}
 .menu>ul:first-child {border-top: 1px solid #f1f1f1;}
 li{border-bottom: 1px solid #f0f0f0; padding: 10px 0; font-size: 14px;}
 
-.left{position: fixed;  float: left ;height: 600px; width: 192px;background-color: #fff; }
+.left{position: fixed;  float: left ;height: 600px; width: 25%;background-color: #fff; }
 .left div{padding-top: 40px ;}
 .innerleft{padding:2px; text-align:center;}
  h2{padding-bottom: 2px; padding-top: 5px;}
@@ -37,7 +37,7 @@ p{font-size: 15px;}
 
 
 
-.right{ overflow: hidden;width:75%;float:left;}
+.right{ overflow: hidden;width:75%;float:right;}
 #portfolioPage{ padding-left: 16px;background-color: #fff;}
 .ftr{text-align: center;margin: 20px ;}
 .ftr a,#blogPage>div,.workhd,#profilePage>div{background-color: #fff;padding: 10px ;border: 1px solid #f0f0f0; margin: 1px;}
