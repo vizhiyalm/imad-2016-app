@@ -37,7 +37,7 @@ p{font-size: 15px;}
 
 
 
-.right{ overflow: hidden;width:75%;}
+.right{ overflow: hidden;width:75%; float:left;}
 #portfolioPage{ padding-left: 16px;background-color: #fff;}
 .ftr{text-align: center;margin: 20px ;}
 .ftr a,#blogPage>div,.workhd,#profilePage>div{background-color: #fff;padding: 10px ;border: 1px solid #f0f0f0; margin: 1px;}
