@@ -17,7 +17,7 @@
     		
     		<div class="menu">
     			<ul>
-    			 <li class="listPort"><a href="#about" class="sel">About</a></li>
+    			 <li class="listAbout"><a href="#aboutPage" class="sel">About</a></li>
                 <li class="listPort"><a href="#portfolioPage" class="sel">Portfolio</a></li>
                 <li class='listBlog'><a href="#blogPage">Blog</a></li>
                  <!--<li><a id="loginnavbar" data-target="#logintab" href="#">Login/Register</a>  </li> -->
@@ -88,19 +88,19 @@
 
     </div>    		
 
- <!--   <div id="profilePage">-->
- <!--   	<div>-->
- <!--       		<h3>My Profile</h3>-->
- <!--       </div> -->
- <!--       <div class="content">-->
+    <div id="aboutPage">
+    	<div>
+        		<h3>My Profile</h3>
+        </div> 
+        <div class="content">
         	
- <!--           <div class="profileAbout">-->
- <!--               <div class="about"><h3>About</h3></div>-->
- <!--               <p>Hi! I am a passionate web designer and web developer .I love designing web pages with an emphasis on user-centric practices and exploring new techniques in development side.</p>-->
- <!--           </div>-->
-	<!--	</div>-->
+            <div class="profileAbout">
+                <div class="about"><h3>About</h3></div>
+                <p>Hi! I am a passionate web designer and web developer .I love designing web pages with an emphasis on user-centric practices and exploring new techniques in development side.</p>
+            </div>
+		</div>
 
-	<!--</div>-->
+	</div>
 		
 
     
@@ -116,22 +116,22 @@ $(document).ready(function(){
     $(".listPort").click(function(){
         $('#portfolioPage').show();
         $('#blogPage').hide();
-        $('#profilePage').hide();
+        $('#aboutPage').hide();
     });
 
     $(".listBlog").click(function(){
         
         $('#portfolioPage').hide();
          $('#blogPage').show();
-          $('#profilePage').hide();
+          $('##aboutPage').hide();
 
     });
 
-    $(".listProfile").click(function(){
+    $(".listAbout").click(function(){
         
         $('#portfolioPage').hide();
          $('#blogPage').hide();
-          $('#profilePage').show();
+          $('#aboutPage').show();
 
     });
 
