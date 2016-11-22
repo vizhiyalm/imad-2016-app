@@ -20,40 +20,91 @@ function createTemplate (data) {
     var content = data.content;
     
     var htmlTemplate = `
-    <html>
-      <head>
-          <title>
-              ${title}
-          </title>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link href="/ui/style.css" rel="stylesheet" />
-      </head> 
-      <body>
-          <div class="container">
-              <div>
-                  <a href="/">Home</a>
-              </div>
+    // <html>
+    //   <head>
+    //       <title>
+    //           ${title}
+    //       </title>
+    //       <meta name="viewport" content="width=device-width, initial-scale=1" />
+    //       <link href="/ui/style.css" rel="stylesheet" />
+    //   </head> 
+    //   <body>
+    //       <div class="container">
+    //           <div>
+    //               <a href="/">Home</a>
+    //           </div>
               
-              <h3>
-                  ${heading}
-              </h3>
-              <div>
-                  ${date.toDateString()}
-              </div>
-              <div>
-                ${content}
-              </div>
+    //           <h3>
+    //               ${heading}
+    //           </h3>
+    //           <div>
+    //               ${date.toDateString()}
+    //           </div>
+    //           <div>
+    //             ${content}
+    //           </div>
              
-              <!--<h4>Comments</h4>
-              <div id="comment_form">
-              </div>
-              <div id="comments">
-                <center>Loading comments...</center>
-              </div>--->
-          </div>
-          <script type="text/javascript" src="/ui/article.js"></script>
-      </body>
-    </html>
+    //           <!--<h4>Comments</h4>
+    //           <div id="comment_form">
+    //           </div>
+    //           <div id="comments">
+    //             <center>Loading comments...</center>
+    //           </div>--->
+    //       </div>
+    //       <script type="text/javascript" src="/ui/article.js"></script>
+    //   </body>
+    // </html>
+    
+    
+    <!DOCTYPE html>
+<html>
+<head>
+	<title>${title}</title>
+	<link href="ui/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="mainDiv">	
+
+	<div class="left">
+	    <div class="innerleft">
+    		<span class="propic"><img src="images/propicl.png"></span>
+    		<!--<h2>KAYALVIZHI</h2>
+    		<h5>Chennai</h5>-->
+    		
+    		<div class="menu">
+    			<ul>
+    			
+                <li class="listPort"><a href="#portfolioPage" class="sel">Portfolio</a></li>
+                <li class="listAbout"><a href="#aboutPage" class="sel">About</a></li>
+                <li class='listBlog'><a href="#blogPage">Blog</a></li>
+                 <!--<li><a id="loginnavbar" data-target="#logintab" href="#">Login/Register</a>  </li> -->
+                </ul>
+    		</div>
+    		
+    		<div class="link">
+    				<a href="https://www.behance.net/vizhiyalm" target="_blank" class="bhc"><img src="images/behance.png"></a>
+    				<a href="https://www.linkedin.com/" target="_blank" class="lkn"><img src="images/linkedin.png"></a>
+    				<a href="https://twitter.com/" target="_blank" class="twr"><img src="images/twitter.png"></a>
+    		</div>
+		</div>
+	</div>
+	
+	<div class="right">
+	    <div class="topic">
+	        <h3>${heading}</h3>
+	    </div>
+	    <div>
+	        <div>
+              ${date.toDateString()}
+            </div>
+            <div>
+              ${content}
+            </div>
+	        
+	    </div>
+	</div>
+
     `;
     return htmlTemplate;
 }
