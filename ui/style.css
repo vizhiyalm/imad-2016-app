@@ -54,7 +54,7 @@ hr {opacity:0.2;}
 .one img{width: 100%;}
 .one span:last-child{float: right;}
 
-
+#blogPage,#aboutPage{display:none;}
 /*#blogPage input{width: 500px; border: none;background-color: #fff;text-overflow: ellipsis;}*/
 /*#blogPage img{height: 40px; width: 40px;}*/
 
