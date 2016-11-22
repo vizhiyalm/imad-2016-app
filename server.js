@@ -40,7 +40,7 @@ function createTemplate (data) {
               </div>
     	<div class="left">
     	    <div class="innerleft">
-        		<span class="propic"><img src="images/propicl.png"></span>
+        		<span class="propic"><img src="../images/propicl.png"></span>
         		<!--<h2>KAYALVIZHI</h2>
         		<h5>Chennai</h5>-->
         		
