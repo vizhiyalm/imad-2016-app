@@ -23,7 +23,7 @@ function createTemplate (data) {
     
     
     
-    <!DOCTYPE html>
+   
 <html>
 <head>
 	<title>${title}</title>
@@ -71,6 +71,7 @@ function createTemplate (data) {
             </div>
 	        
 	    </div>
+	</div>
 	</div>
 	<script type="text/javascript" src="/ui/article.js"></script>
 </body>
