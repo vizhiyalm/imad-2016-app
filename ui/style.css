@@ -33,8 +33,8 @@ p{font-size: 15px;}
 
 
 
-.right{width:75%;float:right;background-color: #fff;}
-#portfolioPage{border:1px solid red;overflow: hidden;}
+.right{width:75%;overflow: hidden;float:right;background-color: #fff;}
+
 .ftr{text-align: center;margin: 20px; }
 /*.ftr a,#blogPage>div,.workhd,#profilePage>div{background-color: #fff;padding: 10px ;border: 1px solid #f0f0f0; margin: 1px;}*/
 .ftr a{font-weight:normal;font-size:12px;}
@@ -61,10 +61,10 @@ p{font-size: 15px;}
 /*.profileAbout{padding-top: 10px;}*/
 /*.profileAbout p{padding-top: 20px;}*/
 
-#blogPage,#aboutPage{  display: none;background-color: #f8f8f8 ; padding-left: 40px; border:1px solid red;}
 
-#blogPage input{width: 500px; border: none;background-color: #fff;text-overflow: ellipsis;}
-#blogPage img{height: 40px; width: 40px;}
+
+/*#blogPage input{width: 500px; border: none;background-color: #fff;text-overflow: ellipsis;}*/
+/*#blogPage img{height: 40px; width: 40px;}*/
 
 .bright{ width:77%; float: left; background-color: #f3f3f3; margin:30px 0 ;}
 .bright div{background-color: #fff;border: 1px solid #ebebeb; padding: 30px;  margin-left: 20px;}
