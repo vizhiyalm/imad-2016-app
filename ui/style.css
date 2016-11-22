@@ -34,7 +34,7 @@ p{font-size: 15px;}
 
 
 .right{width:75%;overflow: hidden;float:right;background-color: #fff;}
-.padleft{padding-left:30px;}
+.padleft{padding:0 60px 20px 30px;}
 
 .ftr{text-align: center;margin: 20px; }
 .ftr a{font-weight:normal;font-size:14px;}
@@ -63,7 +63,7 @@ h4 {font-size:14px;}
 
 p{width:600px;}
 
-.progress{margin:8px 0 14px; height:13px;border:1px solid #0f9d58; border-radius:7px;background-color:#0f9d58;}
+.progress{margin:8px 0 14px; height:13px;border:1px solid #0f9d58; border-radius:7px;background-color:#fff;}
 .percentage{background-color:#0f9d58;}
 
 .logindim{ height: 300px; width: 300px;}
