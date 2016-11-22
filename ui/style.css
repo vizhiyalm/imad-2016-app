@@ -45,7 +45,8 @@ p{font-size: 15px;}
 /*.work div:last-child{clear: both; background-color: red;}*/
 
 .topic{padding:30px 0 12px 30px;}
-hr {opacity:0.2; padding-bottom:20px;}
+hr {opacity:0.2; padding-bottom:35px;}
+h4 {font-size:14px;}
 
 .work span:hover{background-color:white;}
 
@@ -62,7 +63,7 @@ hr {opacity:0.2; padding-bottom:20px;}
 
 p{width:600px;}
 
-.progress{margin:8px 0 14px; height:16px;border:1px solid #0f9d58; border-radius:6px;}
+.progress{margin:8px 0 14px; height:13px;border:1px solid #0f9d58; border-radius:7px;background-color:#0f9d58;}
 .percentage{background-color:#0f9d58;}
 
 .logindim{ height: 300px; width: 300px;}
