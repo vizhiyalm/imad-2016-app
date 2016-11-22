@@ -7,7 +7,6 @@ ul,li {list-style-type:none;}
 
 .left a,h3{font-size: 16px; color: #333333; font-weight: bold;letter-spacing: 1px}
 
-.ftr{padding-bottom:10px;}
 .ftr a{padding-right: 25px; font-weight:bold;}
 /*.sel{color: #33c2e4;}*/
 .left li:hover{background-color: #0f9d58;}
@@ -36,7 +35,7 @@ p{font-size: 15px;}
 .right{width:75%;overflow: hidden;float:right;background-color: #fff;}
 .padleft{padding:0 40px 20px 30px;}
 
-.ftr{text-align: center;margin: 20px; }
+.ftr{text-align: center;padding-bottom:30px; }
 .ftr a{font-weight:normal;font-size:14px;}
 
 .work span{background-color: #fff;margin-bottom: 20px;border: 1px solid #f0f0f0;}
