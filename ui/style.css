@@ -10,9 +10,9 @@ a,h3{font-size: 16px; color: #333333; font-weight: bold;letter-spacing: 1px}
 .ftr{padding: 20px 0 10px 0;}
 .ftr a{padding-right: 25px; font-weight:bold;}
 .sel{color: #33c2e4;}
-a:hover{color: #33c2e4;}
+a:hover{background-color: red;}
 .menu>ul:first-child {border-top: 1px solid #f1f1f1;}
-li{border-bottom: 1px solid #111111; padding: 15px 0; font-size: 14px;background-color:#555555;}
+li{border-bottom: 1px solid #333333; padding: 15px 0; font-size: 14px;background-color:#555555;}
 
 .left{position:fixed;  float: left ;height: 600px; width: 25%;background-color: #fff; }
 .left div{padding-top: 40px ;}
