@@ -20,11 +20,15 @@ function createTemplate (data) {
     var content = data.content;
     
     var htmlTemplate = `
+   
+    
+    
     <!DOCTYPE html>
 <html>
 <head>
 	<title>${title}</title>
 	<link href="ui/style.css" rel="stylesheet" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
 <body>
@@ -68,6 +72,9 @@ function createTemplate (data) {
 	        
 	    </div>
 	</div>
+	<script type="text/javascript" src="/ui/article.js"></script>
+</body>
+</html>
 
     `;
     return htmlTemplate;
