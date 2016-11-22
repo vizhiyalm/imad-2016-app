@@ -50,7 +50,6 @@ hr {opacity:0.2;}
 .work span:hover{background-color:white;}
 
 .one span{float: left;width: 49%;}
-
 .one img{width: 100%;}
 .one span:last-child{float: right;}
 
@@ -58,8 +57,13 @@ hr {opacity:0.2;}
 /*#blogPage input{width: 500px; border: none;background-color: #fff;text-overflow: ellipsis;}*/
 /*#blogPage img{height: 40px; width: 40px;}*/
 
-.bright{ width:77%; float: left; background-color: #f3f3f3; margin:30px 0 ;}
-.bright div{background-color: #fff;border: 1px solid #ebebeb; padding: 30px;  margin-left: 20px;}
+/*.bright{ width:77%; float: left; background-color: #f3f3f3; margin:30px 0 ;}*/
+/*.bright div{background-color: #fff;border: 1px solid #ebebeb; padding: 30px;  margin-left: 20px;}*/
+
+p{width:600px;}
+
+.progress{margin:8px 0 14px; height:16px;border:1px solid #0f9d58; border-radius:6px;}
+.percentage{background-color:#0f9d58;}
 
 .logindim{ height: 300px; width: 300px;}
 
