@@ -33,18 +33,18 @@ p{font-size: 15px;}
 
 
 
-.right{ overflow: hidden;width:75%;float:right;background-color: #fff;}
-#portfolioPage{border:1px solid red;display:block;}
+.right{width:75%;float:right;background-color: #fff;}
+#portfolioPage{border:1px solid red;overflow: hidden;}
 .ftr{text-align: center;margin: 20px; }
 /*.ftr a,#blogPage>div,.workhd,#profilePage>div{background-color: #fff;padding: 10px ;border: 1px solid #f0f0f0; margin: 1px;}*/
-.ftr a{font-weight:normal;}
+.ftr a{font-weight:normal;font-size:12px;}
 
 .work span{background-color: #fff;margin-bottom: 20px;border: 1px solid #f0f0f0;}
 /*.work h5{font-weight: normal;padding-bottom:  13px ;padding-left: 15px;}*/
 /*.work h4{padding-top:  8px ; padding-left: 15px;}*/
 /*.work div:last-child{clear: both; background-color: red;}*/
 
-.workhd{padding:30px 0 12px 30px;border-bottom: 1px solid green;}
+.workhd{padding:30px 0 12px 30px;}
 
 .work span:hover{background-color:white;}
 
