@@ -10,7 +10,7 @@ ul,li {list-style-type:none;}
 .ftr{padding: 20px 0 10px 0;}
 .ftr a{padding-right: 25px; font-weight:bold;}
 /*.sel{color: #33c2e4;}*/
-li:hover{background-color: #0f9d58;}
+.left li:hover{background-color: #0f9d58;}
 .menu>ul:first-child {border-top: 1px solid #f1f1f1;}
 .left li{border-bottom: 1px solid #333333; padding: 15px 0; font-size: 14px;background-color:#555555;}
 
@@ -45,7 +45,7 @@ p{font-size: 15px;}
 /*.work div:last-child{clear: both; background-color: red;}*/
 
 .topic{padding:30px 0 12px 30px;}
-hr {opacity:0.2;}
+hr {opacity:0.2; padding-bottom:20px;}
 
 .work span:hover{background-color:white;}
 
