@@ -37,8 +37,8 @@ p{font-size: 15px;}
 
 
 
-.right{ overflow: hidden;width:75%;float:right;background-color: #fff132;}
-#portfolioPage{ padding-left: 36px;background-color: #fff;}
+.right{ overflow: hidden;width:75%;float:right;background-color: #fff;}
+#portfolioPage{ padding-left: 40px;background-color: #fff132;}
 .ftr{text-align: center;margin: 20px ;}
 .ftr a,#blogPage>div,.workhd,#profilePage>div{background-color: #fff;padding: 10px ;border: 1px solid #f0f0f0; margin: 1px;}
 
@@ -62,8 +62,8 @@ p{font-size: 15px;}
 /*.profileAbout{padding-top: 10px;}*/
 /*.profileAbout p{padding-top: 20px;}*/
 
-/*#blogPage,#aboutPage{  margin-left: 266px; display: none;background-color: #f8f8f8 ; padding-left: 14px; }*/
-#aboutPage{ display:none;}
+#blogPage,#aboutPage{  display: none;background-color: #f8f8f8 ; padding-left: 40px; }
+
 #blogPage input{width: 500px; border: none;background-color: #fff;text-overflow: ellipsis;}
 #blogPage img{height: 40px; width: 40px;}
 
