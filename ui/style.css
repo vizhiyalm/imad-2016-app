@@ -12,7 +12,7 @@ ul,li {list-style-type:none;}
 /*.sel{color: #33c2e4;}*/
 li:hover{background-color: #0f9d58;}
 .menu>ul:first-child {border-top: 1px solid #f1f1f1;}
-li{border-bottom: 1px solid #333333; padding: 15px 0; font-size: 14px;background-color:#555555;}
+.left li{border-bottom: 1px solid #333333; padding: 15px 0; font-size: 14px;background-color:#555555;}
 
 .left{position:fixed;  float: left ;height: 550px; width: 22.5%;background-color: #fff; }
 .left div{padding-top: 40px ;}
