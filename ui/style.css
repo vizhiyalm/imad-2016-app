@@ -5,11 +5,11 @@ ul,li {list-style-type:none;}
 
 #mainDiv{padding: 30px ; }
 
-a,h3{font-size: 16px; color: #333333; font-weight: bold;letter-spacing: 1px}
+.left a,h3{font-size: 16px; color: #333333; font-weight: bold;letter-spacing: 1px}
 
 .ftr{padding: 20px 0 10px 0;}
 .ftr a{padding-right: 25px; font-weight:bold;}
-.sel{color: #33c2e4;}
+/*.sel{color: #33c2e4;}*/
 a:hover{background-color: red;}
 .menu>ul:first-child {border-top: 1px solid #f1f1f1;}
 li{border-bottom: 1px solid #333333; padding: 15px 0; font-size: 14px;background-color:#555555;}
@@ -20,11 +20,7 @@ li{border-bottom: 1px solid #333333; padding: 15px 0; font-size: 14px;background
  h2{padding-bottom: 2px; padding-top: 5px;}
  h5{padding-bottom: 20px; font-weight: normal; }
 .logo img{height:45px;}
-/*.logo{padding-left:40px;}*/
 
-
-
-/*button {height:30px;width:70px;border-radius:5px;}*/
 
 /*.link img{height: 30px;width: 30px; margin-left: 12px; }*/
 
@@ -40,7 +36,7 @@ p{font-size: 15px;}
 .right{ overflow: hidden;width:75%;float:right;background-color: #fff;}
 #portfolioPage{ padding-left: 40px;background-color: #fff132;}
 .ftr{text-align: center;margin: 20px ;}
-.ftr a,#blogPage>div,.workhd,#profilePage>div{background-color: #fff;padding: 10px ;border: 1px solid #f0f0f0; margin: 1px;}
+/*.ftr a,#blogPage>div,.workhd,#profilePage>div{background-color: #fff;padding: 10px ;border: 1px solid #f0f0f0; margin: 1px;}*/
 
 .work span{background-color: #fff;margin-bottom: 20px;border: 1px solid #f0f0f0;}
 /*.work h5{font-weight: normal;padding-bottom:  13px ;padding-left: 15px;}*/
