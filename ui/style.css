@@ -10,7 +10,7 @@ ul,li {list-style-type:none;}
 .ftr a{padding-right: 25px; font-weight:bold;}
 /*.sel{color: #0f9d58;}*/
 .left li:hover{background-color: #0f9d58;}
-.left li a:hover{color:#fff;}
+.left li:hover a{color:#fff;}
 .menu>ul:first-child {border-top: 1px solid #f1f1f1;}
 .left li{border-bottom: 1px solid #333333; padding: 15px 0; font-size: 14px;background-color:#555555;}
 
