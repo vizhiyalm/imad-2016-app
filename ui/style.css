@@ -48,7 +48,7 @@ p{font-size: 15px;}
 .item{position:relative; margin-bottom:30px;}
 .label{position:absolute;opacity:0; background-color: #0f9d58;height:100%; width:100%; text-align:center;}
 .label:hover{z-index:2;opacity:1;}
-.label h3{color: #ffffff;font-size: 13px;bottom: 0;left: 0;margin: auto;position: absolute;right: 0;top: 0;height: 55px}
+.label h3{color: #ffffff;font-size: 14px;bottom: 0;left: 0;margin: auto;position: absolute;right: 0;top: 0;height: 55px}
 
 .topic{padding:30px 0 12px 30px;}
 hr {opacity:0.2; padding-bottom:35px;}
