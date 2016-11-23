@@ -8,7 +8,7 @@ ul,li {list-style-type:none;}
 .left a,.left h3{font-size: 16px; color: #333333; font-weight: bold;letter-spacing: 1px}
 
 .ftr a{padding-right: 25px; font-weight:bold;}
-/*.sel{color: #0f9d58;}*/
+.active{color: #0f9d58;color:#fff;}
 .left li:hover{background-color: #0f9d58;}
 .left li:hover a{color:#fff;}
 .menu>ul:first-child {border-top: 1px solid #f1f1f1;}
