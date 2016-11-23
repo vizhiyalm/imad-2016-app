@@ -46,7 +46,8 @@ p{font-size: 15px;}
 .col{width: 33.33333333%;}
 .col img{width:100%;}
 .item{position:relative; margin-bottom:30px;}
-.label{position:absolute;opacity:0; background-color: #0f9d58;height:100%; width:100%; text-align:center;z-index:2;}
+.label{position:absolute;opacity:0; background-color: #0f9d58;height:100%; width:100%; text-align:center;}
+.label:hover{z-index:2;}
 
 .topic{padding:30px 0 12px 30px;}
 hr {opacity:0.2; padding-bottom:35px;}
