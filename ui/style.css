@@ -44,7 +44,7 @@ p{font-size: 15px;}
 /*.work div:last-child{clear: both; background-color: red;}*/
 
 
-.col{width: 30.33333333%;}
+.col{width: 30.33333333%; float:left;}
 .col img{width:100%;}
 .item{position:relative; margin-bottom:30px;}
 .label{position:absolute;opacity:0; background-color: #0f9d58;height:100%; width:100%; text-align:center;}
