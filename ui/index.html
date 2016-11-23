@@ -19,7 +19,7 @@
     		<div class="menu">
     			<ul>
     			
-                <li class="listPort"><a href="#portfolioPage" class="sel">Portfolio</a></li>
+                <li class="listPort active"><a href="#portfolioPage" class="sel">Portfolio</a></li>
                 <li class="listAbout"><a href="#aboutPage" class="sel">About</a></li>
                 <li class='listBlog'><a href="#blogPage">Blog</a></li>
                  <!--<li><a id="loginnavbar" data-target="#logintab" href="#">Login/Register</a>  </li> -->
@@ -384,6 +384,12 @@ $(document).ready(function(){
 
     });
 
+$(".menu li").click(function(){
+
+    $(".menu li").removeClass("active");
+    $(this).addClass("active");
+
+});
 
  $(".designTag").click(function(){
         $('.2').hide();
