@@ -36,7 +36,7 @@ function createTemplate (data) {
     <body>
     <div id="mainDiv">	
         <div>
-                  <a href="/">Home</a>
+                  
               </div>
     	<div class="left">
     	    <div class="innerleft">
@@ -47,8 +47,7 @@ function createTemplate (data) {
         		<div class="menu">
         			<ul>
         			
-                    <li class="listPort"><a href="#portfolioPage" class="sel">Portfolio</a></li>
-                    <li class="listAbout"><a href="#aboutPage" class="sel">About</a></li>
+                    <li class="listPort"><a href="/" class="sel">Home</a></li>
                     <li class='listBlog'><a href="#blogPage">Blog</a></li>
                      <!--<li><a id="loginnavbar" data-target="#logintab" href="#">Login/Register</a>  </li> -->
                     </ul>
