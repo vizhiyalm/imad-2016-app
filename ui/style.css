@@ -44,7 +44,7 @@ p{font-size: 15px;}
 /*.work div:last-child{clear: both; background-color: red;}*/
 
 .tiles{margin-left:-15px; margin-right:-15px;}
-.col{width: 29.854%; float:left;}
+.col{width: 29.8%; float:left;}
 .tiles li{padding-left: 15px;padding-right: 15px;}
 .col img{width:100%;}
 .item{position:relative; margin-bottom:30px;}
