@@ -40,13 +40,13 @@ p{font-size: 15px;}
 .padleft{padding:0 40px 20px 40px;}
 
 .ftr a:hover { border-bottom:2px solid #0f9d58;color: #0f9d58;}
-.ftr a.active {background-color:#dddddd; border-bottom:2px solid #0f9d58;color: #0f9d58;}
+/*.ftr a.active {background-color:#dddddd; border-bottom:2px solid #0f9d58;color: #0f9d58;}*/
 /*.ftr:hover a{color: #0f9d58;}*/
 
 /*.ftr .active {background-color:#cccccc; border-bottom:#0f9d58;}*/
 /*.ftr .active a{color: #0f9d58;}*/
 .ftr{text-align: center;padding-bottom:30px; }
-.ftr a{font-weight:normal;font-size:14px;padding: 5px 15px;}
+.ftr a{font-weight:normal;font-size:14px;padding: 1px 15px;}
 
 
 
