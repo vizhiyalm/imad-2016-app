@@ -14,7 +14,7 @@ ul,li {list-style-type:none;}
 .menu>ul:first-child {border-top: 1px solid #f1f1f1;}
 .left li{border-bottom: 1px solid #333333; padding: 15px 0;color:#333333; font-size: 14px;background-color:#555555;}
 
-.left li:active{background-color: #0f9d58;}
+.left li a:active{background-color: #0f9d58;}
 
 
 .left{position:fixed;  float: left ;height: 550px; width: 22.5%;background-color: #fff; }
