@@ -123,86 +123,62 @@ app.get('/articles/:articleName', function (req, res) {
 });
 
 
-// function homeTemplate(){
-//     var htmlTemplate = `
+function homeTemplate(){
+    var htmlTemplate = `
     	
-// 	<div id="blogPage">
+	<div id="blogPage">
 	   
-//         <!-- <span class="ftr" id="cat">
-//                 <a href="#" class="sel">Category</a>
-//                 <a href="#" class="designTag">Tag</a>
-//                 <a href="#" class="codeTag">Date</a>
-//         </span>  -->  
-//             <h3>My articles</h3>
-//         <div class="blog1">
-//             <center>Loading...</center>
+        <!-- <span class="ftr" id="cat">
+                <a href="#" class="sel">Category</a>
+                <a href="#" class="designTag">Tag</a>
+                <a href="#" class="codeTag">Date</a>
+        </span>  -->  
+            <h3>My articles</h3>
+        <div class="blog1">
+            <center>Loading...</center>
             
 
-//         </div>
+        </div>
         
-//     </div>
-//     <div class="container">
-//                 <div class="row">
-//                     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    </div>
+    <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-//             `;
+            `;
 
             
-//             for (var articleID=article.length-1; articleID>=0; articleID--){
-//                 var heading = article[articleID].article_heading;
-//                 var subheading = article[articleID].article_subheading;
-//                 var author = article[articleID].article_author;
-//                 var date = (article[articleID].article_date).toDateString();
-
-//                 htmlTemplate = htmlTemplate + `
-
-//                  <div class="post-preview">
-//                             <a href="articles/${ID}">
-//                                 <h2 class="post-title">
-//                                     ${heading}
-//                                 </h2>
-//                                 <h3 class="post-subtitle">
-//                                     ${subheading}
-//                                 </h3>
-//                             </a>
-//                             <p class="post-meta">Posted by <a href="#">${author}</a> on ${date}</p>
-//                         </div>
-//                         <hr>
-//                 `
-//             }
-
-//             htmlTemplate = htmlTemplate + `
-//             </div>
-//                 </div>
-//             </div>`
-//   return htmlTemplate;
-// }
-
-var blogPage = document.getElementById('blogPage');
-for (var articleID=article.length-1; articleID>=0; articleID--){
+            for (var articleID=article.length-1; articleID>=0; articleID--){
                 var heading = article[articleID].article_heading;
                 var subheading = article[articleID].article_subheading;
                 var author = article[articleID].article_author;
                 var date = (article[articleID].article_date).toDateString();
 
-blogPage.innerHTML=`<div class="topic">
-                    	<h3>My Blog</h3>
-                    </div> 
-                    <hr>
-                    <div class="padleft">
-                        <div class="post-preview">
-                             <a href="articles/${ID}">
-                                     ${heading}
-                                 </h2>
-                                 <h3 class="post-subtitle">
-                                     ${subheading}
-                                 </h3>
-                             </a>
-                             <p class="post-meta">Posted by <a href="#">${author}</a> on ${date}</p>
-                         </div>
-                    </div>
-                         ` + blogPage.innerHTML;
+                htmlTemplate = htmlTemplate + `
+
+                 <div class="post-preview">
+                            <a href="articles/${ID}">
+                                <h2 class="post-title">
+                                    ${heading}
+                                </h2>
+                                <h3 class="post-subtitle">
+                                    ${subheading}
+                                </h3>
+                            </a>
+                            <p class="post-meta">Posted by <a href="#">${author}</a> on ${date}</p>
+                        </div>
+                        <hr>
+                `
+            }
+
+            htmlTemplate = htmlTemplate + `
+            </div>
+                </div>
+            </div>`
+  return htmlTemplate;
 }
+
+
 
  app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
