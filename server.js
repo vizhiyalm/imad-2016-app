@@ -122,13 +122,21 @@ app.get('/articles/:articleName', function (req, res) {
   });
 });
 
-
-
-
-
            
-
-
+ document.getElementById('blogPage').innerHTML= `
+             <div class="topic">
+          <h3>My Blog</h3>
+        </div> 
+        <hr>
+        <div class="padleft">
+    <div class="post-preview">
+        <div> ${heading}</div>
+        <div> ${subheading}</div>
+                
+        <p class="post-meta">Posted by <a href="#">${author}</a> on ${date}</p>
+    </div>
+    <hr>
+    </div> `
 
  app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
