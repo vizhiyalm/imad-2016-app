@@ -42,8 +42,8 @@ p{font-size: 15px;}
 .ftr :hover {background-color:#cccccc; border-bottom:#0f9d58;}
 .ftr :hover a{color: #0f9d58;}
 
-.ftr li.active {background-color:#cccccc; border-bottom:#0f9d58;}
-.ftr li.active a{color: #0f9d58;}
+.ftr .active {background-color:#cccccc; border-bottom:#0f9d58;}
+.ftr .active a{color: #0f9d58;}
 .ftr{text-align: center;padding-bottom:30px; }
 .ftr a{font-weight:normal;font-size:14px;}
 
