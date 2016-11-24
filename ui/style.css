@@ -15,7 +15,7 @@ ul,li {list-style-type:none;}
 .left li{border-bottom: 1px solid #333333; padding: 15px 0;color:#333333; font-size: 14px;background-color:#555555;}
 
 .left li.active{background-color: #0f9d58;}
-
+.left li a.active{color: #fff;}
 
 .left{position:fixed;  float: left ;height: 550px; width: 22.5%;background-color: #fff; }
 .left div{padding-top: 40px ;}
