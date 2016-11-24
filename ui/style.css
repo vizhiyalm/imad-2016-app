@@ -7,7 +7,7 @@ ul,li {list-style-type:none;}
 
 .left a,.left h3{font-size: 16px; color: #333333; font-weight: bold;letter-spacing: 1px}
 
-.ftr a{padding-right: 25px; font-weight:bold;}
+
 .left li .active{background-color: #0f9d58;color:#fff;}
 .left li:hover{background-color: #0f9d58;}
 .left li:hover a{color:#fff;}
@@ -39,13 +39,13 @@ p{font-size: 15px;}
 .right{width:75%;overflow: hidden;float:right;background-color: #fff;}
 .padleft{padding:0 40px 20px 40px;}
 
-.ftr:hover {background-color:#cccccc; border-bottom:#0f9d58;}
+.ftr:hover {background-color:#dddddd; border-bottom:#0f9d58;}
 .ftr:hover a{color: #0f9d58;}
 
 .ftr .active {background-color:#cccccc; border-bottom:#0f9d58;}
 .ftr .active a{color: #0f9d58;}
 .ftr{text-align: center;padding-bottom:30px; }
-.ftr a{font-weight:normal;font-size:14px;}
+.ftr a{font-weight:normal;font-size:14px;padding-right: 15px;padding-left: 15px;}
 
 
 
