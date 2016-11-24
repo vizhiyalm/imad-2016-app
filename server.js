@@ -133,7 +133,7 @@ app.get('/articles/:articleName', function (req, res) {
         <!--<div> ${heading}</div>-->
         
                 
-        <p class="post-meta">Posted by <a href="#">${author}</a> on ${date}</p>
+        <p class="post-meta">Posted by <a href="#">author</a> on author</p>
     </div>
     <hr>
     </div> `
