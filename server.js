@@ -130,8 +130,8 @@ app.get('/articles/:articleName', function (req, res) {
         <hr>
         <div class="padleft">
     <div class="post-preview">
-        <div> ${heading}</div>
-        <div> ${subheading}</div>
+        <!--<div> ${heading}</div>-->
+        
                 
         <p class="post-meta">Posted by <a href="#">${author}</a> on ${date}</p>
     </div>
