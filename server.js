@@ -123,55 +123,26 @@ app.get('/articles/:articleName', function (req, res) {
 });
 
 
-function homeTemplate(){
-    var htmlTemplate = `
-    	
-	<div id="blogPage">
-	   
-        <!-- <span class="ftr" id="cat">
-                <a href="#" class="sel">Category</a>
-                <a href="#" class="designTag">Tag</a>
-                <a href="#" class="codeTag">Date</a>
-        </span>  -->  
-            <h3>My articles</h3>
-        <div class="blog1">
-            <center>Loading...</center>
-            
 
-        </div>
-        
+
+            
+for (var articleID=article.length-1; articleID>=0; articleID--){
+    var heading = article[articleID].article_heading;
+    var subheading = article[articleID].article_subheading;
+    var author = article[articleID].article_author;
+    var date = (article[articleID].article_date).toDateString();
+var blogPage = document.getElementById('blogPage');
+    blogPage.innerHTML= `
+    <div class="post-preview">
+        <div> ${heading}</div>
+        <div> ${subheading}</div>
+                
+        <p class="post-meta">Posted by <a href="#">${author}</a> on ${date}</p>
     </div>
-    <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-            `;
-
-            
-            for (var articleID=article.length-1; articleID>=0; articleID--){
-                var heading = article[articleID].article_heading;
-                var subheading = article[articleID].article_subheading;
-                var author = article[articleID].article_author;
-                var date = (article[articleID].article_date).toDateString();
-
-                htmlTemplate = htmlTemplate + `
-
-                 <div class="post-preview">
-                            
-                            <p class="post-meta">Posted by <a href="#">${author}</a> on ${date}</p>
-                        </div>
-                        <hr>
-                `
-            }
-
-            htmlTemplate = htmlTemplate + `
-            </div>
-                </div>
-            </div>`
-  return htmlTemplate;
+    <hr>
+    `
 }
-
-
+           
 
 
 
