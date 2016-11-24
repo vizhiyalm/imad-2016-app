@@ -133,6 +133,11 @@ for (var articleID=article.length-1; articleID>=0; articleID--){
     var date = (article[articleID].article_date).toDateString();
 var blogPage = document.getElementById('blogPage');
     blogPage.innerHTML= `
+     <div class="topic">
+        	<h3>My Blog</h3>
+        </div> 
+        <hr>
+        <div class="padleft">
     <div class="post-preview">
         <div> ${heading}</div>
         <div> ${subheading}</div>
@@ -140,6 +145,7 @@ var blogPage = document.getElementById('blogPage');
         <p class="post-meta">Posted by <a href="#">${author}</a> on ${date}</p>
     </div>
     <hr>
+    </div>
     `
 }
            
