@@ -19,7 +19,7 @@ ul,li {list-style-type:none;}
 
 .left{position:fixed;  float: left ;height: 550px; width: 22.5%;background-color: #fff; }
 .left div{padding-top: 40px ;}
-.innerleft{padding:2px; text-align:center;}
+.innerleft{ text-align:center;}
  h2{padding-bottom: 2px; padding-top: 5px;}
  h5{padding-bottom: 20px; font-weight: normal; }
 .logo img{height:45px;}
