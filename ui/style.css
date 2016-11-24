@@ -8,7 +8,7 @@ ul,li {list-style-type:none;}
 .left a,.left h3{font-size: 16px; color: #333333; font-weight: bold;letter-spacing: 1px}
 
 .ftr a{padding-right: 25px; font-weight:bold;}
-.active{color: #0f9d58;color:#fff;}
+.active{background-color: #0f9d58;color:#fff;}
 .left li:hover{background-color: #0f9d58;}
 .left li:hover a{color:#fff;}
 .menu>ul:first-child {border-top: 1px solid #f1f1f1;}
@@ -56,7 +56,7 @@ p{font-size: 15px;}
 .label:hover{z-index:2;opacity:0.9;}
 .label h3{color: #ffffff;font-size: 16px;bottom: 0;left: 0;margin: auto;position: absolute;right: 0;top: 0;height: 55px}
 
-.topic{padding:30px 0 12px 30px;}
+.topic{padding:30px 0 12px 40px;}
 hr {opacity:0.2; padding-bottom:35px;}
 h4 {font-size:14px;}
 
