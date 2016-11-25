@@ -46,7 +46,7 @@ p{font-size: 15px;}
 /*.ftr .active {background-color:#cccccc; border-bottom:#0f9d58;}*/
 /*.ftr .active a{color: #0f9d58;}*/
 .ftr{text-align: center;padding-bottom:30px; }
-.ftr a{font-weight:normal;font-size:14px;padding: 3px 15px;}
+.ftr a{font-weight:bold;font-size:14px;padding: 3px 15px;}
 
 
 
