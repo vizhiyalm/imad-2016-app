@@ -57,7 +57,7 @@ p{font-size: 15px;}
 .tiles li{padding-left: 15px;padding-right: 15px;}
 .col img{width:100%;}
 .item{position:relative; margin-bottom:30px;}
-.label{position:absolute;opacity:0; background-color: #fefefe;height:100%; width:100%; text-align:center;}
+.label{position:absolute;opacity:0; background-color: #efefef;height:100%; width:100%; text-align:center;}
 .label:hover{z-index:2;opacity:0.9;}
 .label h3{font-size: 16px;bottom: 0;left: 0;margin: auto;position: absolute;right: 0;top: 0;height: 55px}
 
