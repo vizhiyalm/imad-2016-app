@@ -60,9 +60,9 @@ p{font-size: 15px;}
 .label:hover{z-index:2;opacity:0.9;}
 .label h3{color: #ffffff;font-size: 16px;bottom: 0;left: 0;margin: auto;position: absolute;right: 0;top: 0;height: 55px}
 
-.line{ border-bottom:2px solid #0f9d58;width:inherit;}
+.line{ border-bottom:2px solid #0f9d58;width:60px;position:absolute;top:0;right:2px;padding:0 7px;}
 .topic{padding:30px 0 12px 40px;}
-hr {opacity:0.2; padding-bottom:35px;}
+hr {opacity:0.2; padding-bottom:35px;position:relative;}
 h4 {font-size:14px;}
 
 .work span:hover{background-color:white;}
