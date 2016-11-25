@@ -41,22 +41,22 @@ function createTemplate (data) {
     	<div class="left">
     	    <div class="innerleft">
         		<span class="propic"><img src="../images/propicl.png"></span>
-        		<!--<h2>KAYALVIZHI</h2>
-        		<h5>Chennai</h5>-->
+        		<h2>KAYALVIZHI</h2>
+    		    <h4>Web Designer / Web Developer</h4>
         		
         		<div class="menu">
         			<ul>
         			
                     <li class="listPort"><a href="/" class="sel">Home</a></li>
-                    <li class='listBlog'><a href="#blogPage">Blog</a></li>
+                    <li class='listBlog'><a href="../#blogPage">Blog</a></li>
                      <!--<li><a id="loginnavbar" data-target="#logintab" href="#">Login/Register</a>  </li> -->
                     </ul>
         		</div>
         		
         		<div class="link">
-        				<a href="https://www.behance.net/vizhiyalm" target="_blank" class="bhc"><img src="images/behance.png"></a>
-        				<a href="https://www.linkedin.com/" target="_blank" class="lkn"><img src="images/linkedin.png"></a>
-        				<a href="https://twitter.com/" target="_blank" class="twr"><img src="images/twitter.png"></a>
+        				<a href="https://www.behance.net/vizhiyalm" target="_blank" class="bhc"><img src="../images/behance.png"></a>
+        				<a href="https://www.linkedin.com/" target="_blank" class="lkn"><img src="../images/linkedin.png"></a>
+        				<a href="https://twitter.com/" target="_blank" class="twr"><img src="../images/twitter.png"></a>
         		</div>
     		</div>
     	</div>
