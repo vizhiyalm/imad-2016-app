@@ -38,10 +38,10 @@ p{font-size: 15px;}
 
 .right{width:75%;overflow: hidden;float:right;background-color: #fff;}
 .padleft{padding:0 40px 20px 40px;}
-.ftr li .active{ border-bottom:2px solid #0f9d58;background-color:#dddddd;}
-.ftr li:hover{ border-bottom:2px solid #0f9d58;background-color:#dddddd;}
+.ftr li .active{border-bottom:2px solid #0f9d58;background-color:#dddddd;}
+.ftr li:hover{border-bottom:2px solid #0f9d58;background-color:#dddddd;}
 .ftr li:hover a{color: #0f9d58;}
-.ftr li.active{ border-bottom:2px solid #0f9d58;background-color:#dddddd;}
+.ftr li.active{border-bottom:2px solid #0f9d58;background-color:#dddddd;}
 .ftr li.active a{color: #0f9d58;}
 /*.ftr a.active {background-color:#dddddd; border-bottom:2px solid #0f9d58;color: #0f9d58;}*/
 /*.ftr:hover a{color: #0f9d58;}*/
