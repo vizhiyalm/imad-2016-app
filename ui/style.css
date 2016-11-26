@@ -72,6 +72,8 @@ p{font-size: 15px;}
 
 .aboutdv{position relative;}
 
+.skill{clear:both;}
+
 .progress{margin:12px 0 25px; height:13px;border:1px solid #0f9d58; border-radius:7px;background-color:#fff;position:relative;}
 .percentage{background-color:#0f9d58; bottom: 0;position: absolute;top: 0;}
 
