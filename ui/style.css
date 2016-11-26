@@ -43,7 +43,7 @@ p{font-size: 15px;}
 /*.ftr li:hover a{color: #0f9d58;}*/
 /*.ftr li.active{border-bottom:2px solid #0f9d58;}*/
 /*.frt li.active a{color: #0f9d58;}*/
-.ftr a.active { border-bottom:2px solid #0f9d58;color: #0f9d58;}
+.ftr .active a{ border-bottom:2px solid #0f9d58;color: #0f9d58;}
 .ftr a:hover { border-bottom:2px solid #0f9d58;color: #0f9d58;}
 /*.ftr:hover a{color: #0f9d58;}*/
 
