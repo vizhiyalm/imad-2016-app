@@ -66,8 +66,8 @@ hr {opacity:0.2; margin-bottom:35px;position:relative;}
 
 #blogPage,#aboutPage{display:none;}
 
-.about{padding-right: 30px;width:50%;float:left; position:absolute;}
-.details{width:50%;float:right;position:absolute;}
+.about{padding-right: 30px;width:50%;}
+.details{width:50%;float:right;position:absolute;top:2px; right:2px;}
 p{font-size: 15px;}
 
 .aboutdv{position relative;}
