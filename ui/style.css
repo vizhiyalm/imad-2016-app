@@ -66,7 +66,7 @@ hr {opacity:0.2; margin-bottom:35px;position:relative;}
 
 #blogPage,#aboutPage{display:none;}
 
-.about{padding-right: 30px;width:400px;}
+.about{padding-right: 30px;width:380px;}
 .details{width:32%;float:right;position:absolute;top:133px; right:70px;}
 .details ul{    border: 1px solid #efefef;text-align: center;}
 .details ul li{    border-bottom: 1px solid #efefef;background: #fafafa;font-size: 14px;}
