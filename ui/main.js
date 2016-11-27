@@ -118,7 +118,7 @@ function loadArticles () {
                     content += `<li>
                     <a href="/articles/${articleData[i].title}">${articleData[i].heading}</a>
                     (${articleData[i].date.split('T')[0]})
-                    <p class="post-meta">Posted by <a href="#">${author}</a> on ${date}</p>
+                    
                     </li>
                     <hr>`;
                     
