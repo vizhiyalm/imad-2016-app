@@ -119,7 +119,7 @@ function loadArticles () {
                     <a href="/articles/${articleData[i].title}"><h3>${articleData[i].heading}</h3></a>
                     (${articleData[i].date.split('T')[0]})
                     
-                    <a href="/articles/${articleData[i].title}"><h4 style="color:#0f9d58;">${articleData[i].subheading}</h4></a>
+                    <a href="/articles/${articleData[i].title}"><h4 style="color:#0f9d58;padding-top:10px">${articleData[i].subheading}</h4></a>
                     
                     </li>
                     <hr>`;
