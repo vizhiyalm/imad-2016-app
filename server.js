@@ -236,20 +236,7 @@ app.post('/submit-comment/:articleName', function (req, res) {
     }
 });
  
- var pool = new Pool(config);
-
-app.get('/article-db', function (req, res) {
-   // make a select request
-   // return a response with the results
-   pool.query('SELECT * FROM article', function (err, result) {
-      if (err) {
-          res.status(500).send(err.toString());
-      } else {
-          res.send(JSON.stringify(result));
-      }
-   });
-});
-
+ 
 app.get('/articles/:articleName', function (req, res) {
   // SELECT * FROM article WHERE title = '\'; DELETE WHERE a = \'asdf'
   pool.query("SELECT * FROM article WHERE title = $1", [req.params.articleName], function (err, result) {
