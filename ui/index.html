@@ -22,7 +22,7 @@
                 <li class="listPort active"><a href="#portfolioPage" >Portfolio</a></li>
                 <li class="listAbout"><a href="#aboutPage">About</a></li>
                 <li class='listBlog'><a href="#blogPage">Blog</a></li>
-                <li><a id="loginnavbar" data-target="#logintab" href="#">Login/Register</a>  </li> 
+                <li class="listLogin"><a id="loginnavbar"  href="#loginPage">Login/Register</a>  </li> 
                 </ul>
     		</div>
     		
@@ -410,21 +410,32 @@ $(document).ready(function(){
         $('#portfolioPage').show();
         $('#blogPage').hide();
         $('#aboutPage').hide();
+        $('#loginPage').hide();
     });
 
     $(".listBlog").click(function(){
         
         $('#portfolioPage').hide();
-         $('#blogPage').show();
-          $('#aboutPage').hide();
+        $('#blogPage').show();
+        $('#aboutPage').hide();
+        $('#loginPage').hide();
 
     });
 
     $(".listAbout").click(function(){
         
         $('#portfolioPage').hide();
-         $('#blogPage').hide();
-          $('#aboutPage').show();
+        $('#blogPage').hide();
+        $('#aboutPage').show();
+        $('#loginPage').hide();
+    });
+    
+    $(".listLogin").click(function(){
+        
+        $('#portfolioPage').hide();
+        $('#blogPage').hide();
+        $('#aboutPage').hide();
+          $('#loginPage').show();
 
     });
 
