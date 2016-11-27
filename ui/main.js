@@ -117,8 +117,23 @@ function loadArticles () {
                 for (var i=0; i< articleData.length; i++) {
                     content += `<li>
                     <a href="/articles/${articleData[i].title}">${articleData[i].heading}</a>
-                    (${articleData[i].date.split('T')[0]})</li>
+                    (${articleData[i].date.split('T')[0]})
+                    <p class="post-meta">Posted by <a href="#">${author}</a> on ${date}</p>
+                    </li>
                     <hr>`;
+                    
+                //  <div class="post-preview">
+                //             <a href="posts/${postID}">
+                //                 <h2 class="post-title">
+                //                     ${title}
+                //                 </h2>
+                //                 <h3 class="post-subtitle">
+                //                     ${subtitle}
+                //                 </h3>
+                //             </a>
+                //             <p class="post-meta">Posted by <a href="#">${author}</a> on ${date}</p>
+                //         </div>
+                //         <hr>
                 }
                 content += "</ul>"
                 articles.innerHTML = content;
