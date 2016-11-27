@@ -85,9 +85,7 @@ function createTemplate (data) {
                 <center>Loading comments...</center>
               </div>
               
-              <div id="login_area">
-    	        <center>Loading...</center>
-    	      </div>
+              
     	    </div>
     	</div>
     	</div>
