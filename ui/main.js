@@ -116,7 +116,7 @@ function loadArticles () {
                 var articleData = JSON.parse(this.responseText);
                 for (var i=0; i< articleData.length; i++) {
                     content += `<li>
-                    <a href="/articles/${articleData[i].title}">${articleData[i].heading}</a>
+                    <a href="/articles/${articleData[i].title}"><h3>${articleData[i].heading}</h3></a>
                     (${articleData[i].date.split('T')[0]})
                     
                     </li>
