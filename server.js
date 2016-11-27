@@ -26,9 +26,6 @@ function createTemplate (data) {
     
     var htmlTemplate = `
     
-    
-    
-   
 <html>
     <head>
     	<title>
@@ -87,6 +84,10 @@ function createTemplate (data) {
               <div id="comments">
                 <center>Loading comments...</center>
               </div>
+              
+              <div id="login_area">
+    	        <center>Loading...</center>
+    	      </div>
     	    </div>
     	</div>
     	</div>
