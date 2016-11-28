@@ -30,7 +30,7 @@ ul,li {list-style-type:none;}
 .right{width:75%;overflow: hidden;float:right;background-color: #fff;}
 .padleft{padding:0 40px 20px 40px;}
 /*.ftr li .active{border-bottom:2px solid #0f9d58;}*/
-.ftr ul{display:flex;}
+
 .ftr li:hover{border-bottom:2px solid #0f9d58;}
 .ftr li:hover a{color: #0f9d58;}
 .ftr li.act{border-bottom:2px solid #0f9d58;}
@@ -40,7 +40,7 @@ ul,li {list-style-type:none;}
 /*.ftr:hover a{color: #0f9d58;}*/
 
 /*.ftr .active {background-color:#cccccc; border-bottom:#0f9d58;}*/
-/*.ftr .active a{color: #0f9d58;}*/
+.ftr .act a{color: #0f9d58;}
 .ftr{text-align: center;padding-bottom:30px; }
 .ftr a{font-weight:bold;font-size:14px;padding: 3px 15px;}
 .filtertag{font-size:12px; font-style: italic; padding-top:3px;}
