@@ -29,7 +29,8 @@ ul,li {list-style-type:none;}
 
 .right{width:75%;overflow: hidden;float:right;background-color: #fff;}
 .padleft{padding:0 40px 20px 40px;}
-.ftr li .active{border-bottom:2px solid #0f9d58;}
+/*.ftr li .active{border-bottom:2px solid #0f9d58;}*/
+.ftr ul{display:flex;}
 .ftr li:hover{border-bottom:2px solid #0f9d58;}
 .ftr li:hover a{color: #0f9d58;}
 .ftr li.act{border-bottom:2px solid #0f9d58;}
