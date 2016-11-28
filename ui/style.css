@@ -41,7 +41,7 @@ ul,li {list-style-type:none;}
 
 /*.ftr .active {background-color:#cccccc; border-bottom:#0f9d58;}*/
 .ftr .act a{color: #0f9d58;}
-.ftr{text-align: center;padding-bottom:30px; }
+.ft{text-align: center;padding-bottom:30px; }
 .ftr a{font-weight:bold;font-size:14px;padding: 3px 15px;}
 .filtertag{font-size:12px; font-style: italic; padding-top:3px;}
 
