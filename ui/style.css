@@ -30,11 +30,11 @@ ul,li {list-style-type:none;}
 .right{width:75%;overflow: hidden;float:right;background-color: #fff;}
 .padleft{padding:0 40px 20px 40px;}
 /*.ftr li .active{border-bottom:2px solid #0f9d58;}*/
-.ftr li:hover{border-bottom:2px solid #0f9d58;}
-.ftr li:hover a{color: #0f9d58;}
-.ftr li.act{border-bottom:2px solid #0f9d58;}
-.frt li.act a{color: #0f9d58;}
-.ftr a .active{ border-bottom:2px solid #0f9d58;color: #0f9d58;}
+/*.ftr li:hover{border-bottom:2px solid #0f9d58;}*/
+/*.ftr li:hover a{color: #0f9d58;}*/
+/*.ftr li.act{border-bottom:2px solid #0f9d58;}*/
+/*.frt li.act a{color: #0f9d58;}*/
+.ftr a .act{ border-bottom:2px solid #0f9d58;color: #0f9d58;}
 .ftr a:hover { border-bottom:2px solid #0f9d58;color: #0f9d58;}
 /*.ftr:hover a{color: #0f9d58;}*/
 
