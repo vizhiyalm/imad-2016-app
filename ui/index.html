@@ -45,17 +45,17 @@
 			</div>
 			<hr>
 			<div class="padleft" style="overflow:hidden;">
-			    <div class="ftr">
-    	           <a href="#" class="act">All</a>
-    	           <a href="#" class="designTag">Design</a>
-    	           <a href="#" class="codeTag">Code</a>
-            	</div>
+			    <!--<div class="ftr">-->
+    	  <!--         <a href="#" class="act">All</a>-->
+    	  <!--         <a href="#" class="designTag">Design</a>-->
+    	  <!--         <a href="#" class="codeTag">Code</a>-->
+       <!--     	</div>-->
 			    
-    			<!--<ul class="ftr">-->
-    	  <!--         <li class="act"><a href="#" class="sel">All</a></li>-->
-    	  <!--         <li><a href="#" class="designTag">Design</a></li>-->
-    	  <!--         <li><a href="#" class="codeTag">Code</a></li>-->
-       <!--     	</ul>-->
+    			<ul class="ftr">
+    	           <li class="act"><a href="#" class="sel">All</a></li>
+    	           <li><a href="#" class="designTag">Design</a></li>
+    	           <li><a href="#" class="codeTag">Code</a></li>
+            	</ul>
             	<div class="tiles">
             	    <ul>
             	        <li class="col"> 
@@ -408,9 +408,9 @@ $(".menu li").click(function(){
 
 });
 
-$(".ftr a").click(function(){
+$(".ftr li").click(function(){
 
-    $(".ftr a").removeClass("act");
+    $(".ftr li").removeClass("act");
     $(this).addClass("act");
 
 });
