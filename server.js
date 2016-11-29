@@ -49,8 +49,8 @@ function createTemplate (data) {
         		<div class="menu">
         			<ul>
         			
-                    <li class="listPort"><a href="/" class="sel">Home</a></li>
-                    <li class='listBlog'><a href="../#blogPage">Blog</a></li>
+                    <li class="listPort"><a href="/" class="sel">Portfolio</a></li>
+                     <!--<li class='listBlog'><a href="../#blogPage">Blog</a></li>-->
                      <!--<li><a id="loginnavbar" data-target="#logintab" href="#">Login/Register</a>  </li> -->
                     </ul>
         		</div>
