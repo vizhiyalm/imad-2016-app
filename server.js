@@ -73,8 +73,8 @@ function createTemplate (data) {
     	        <h3>My Blog</h3>
     	    </div>
     	    <hr>
-    	    <div>
-    	        <div class="topic">
+    	    <div class="padleft">
+    	        <div >
     	            <span>
     	                <h3 color: #0f9d58;>${heading}</h3>
     	            </span>
@@ -82,24 +82,28 @@ function createTemplate (data) {
     	                ${date.toDateString()}
     	            </span>
     	        </div>
+    	   </div>
     	       
-                <div>
+                <div class="padleft">
                   ${content}
                 </div>
                 <hr>
-                
-                <div id="login_area">
-        	        <center>Loading...</center>
+                <div class="padleft">
+                    <div id="login_area">
+            	        <center>Loading...</center>
+            	    </div>
         	    </div>
         	    
         	    <hr>
-    	        <h4>Comments</h4>
-                  <div id="comment_form">
-                    
-                  </div>
-                  <div id="comments">
-                    <center>Loading comments...</center>
-                  </div>
+        	    <div class="padleft">
+        	          <h4>Comments</h4>
+                      <div id="comment_form">
+                        
+                      </div>
+                      <div id="comments">
+                        <center>Loading comments...</center>
+                      </div>
+                </div>
               
               
     	    </div>
