@@ -78,7 +78,7 @@ function createTemplate (data) {
     	            <span style="float:left;">
     	                <h3 style="color: #0f9d58;">${heading}</h3>
     	            </span>
-    	            <span style="float:right;color: #666;">
+    	            <span style="float:right;color: #666;font-size:12px;">
     	                ${date.toDateString()}
     	            </span>
     	        </div>
