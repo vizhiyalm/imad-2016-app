@@ -73,13 +73,16 @@ function createTemplate (data) {
     	        <h3>My Blog</h3>
     	    </div>
     	    <hr>
-    	    <div class="padleft">
+    	    <div>
     	        <div class="topic">
-    	            <h3>${heading}</h3>
+    	            <span>
+    	                <h3 color: #0f9d58;>${heading}</h3>
+    	            </span>
+    	            <span>
+    	                ${date.toDateString()}
+    	            </span>
     	        </div>
-    	        <div>
-                  ${date.toDateString()}
-                </div>
+    	       
                 <div>
                   ${content}
                 </div>
