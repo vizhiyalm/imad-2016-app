@@ -19,7 +19,7 @@ ul,li {list-style-type:none;}
 .left li.active a{color: #fff;}
 
 .left{position:fixed;  float: left ;height: 550px; width: 22.5%;background-color: #fff; }
-.left div{padding-top: 30px ;}
+.left div{padding-top: 40px ;}
 .innerleft{ text-align:center;}
  h2{padding-bottom: 2px; padding-top: 5px;}
  h4{ font-weight: normal; font-size:14px;}
