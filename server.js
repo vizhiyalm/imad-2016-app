@@ -76,7 +76,7 @@ function createTemplate (data) {
     	    <div class="padleft">
     	        <div >
     	            <span>
-    	                <h3 color: #0f9d58;>${heading}</h3>
+    	                <h3 style="color: #0f9d58;">${heading}</h3>
     	            </span>
     	            <span>
     	                ${date.toDateString()}
