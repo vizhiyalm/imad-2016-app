@@ -87,15 +87,9 @@ function createTemplate (data) {
                 <div class="padleft">
                   ${content}
                 </div>
-                <hr>
-                <div class="padleft">
-                    <div id="login_area">
-            	        <center>Loading...</center>
-            	    </div>
-        	    </div>
-        	    
-        	    <hr>
+                
         	    <div class="padleft">
+        	          <hr>
         	          <h4>Comments</h4>
                       <div id="comment_form">
                         
@@ -104,6 +98,12 @@ function createTemplate (data) {
                         <center>Loading comments...</center>
                       </div>
                 </div>
+                <hr>
+                <div class="padleft">
+                    <div id="login_area">
+            	        <center>Loading...</center>
+            	    </div>
+        	    </div>
               
               
     	    </div>
