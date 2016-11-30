@@ -84,7 +84,7 @@ p{font-size: 15px;}
 .percentage{background-color:#0f9d58; bottom: 0;position: absolute;top: 0;}
 
 .subject{font-weight:bold;}
-.sub{color:#0f9d58; padding:3px 0 5px 0;}
+.sub{color:#0f9d58; padding:3px 0 5px 0;font-weight:bold;}
 .blogs hr{margin-top:15px;}
 .blogs h6{colour:#555555;}
 
