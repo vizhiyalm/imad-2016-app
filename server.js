@@ -90,7 +90,7 @@ function createTemplate (data) {
                 
         	    <div class="padleft">
         	          <hr>
-        	          <h4>Comments</h4>
+        	          <h3>Comments</h3>
                       <div id="comment_form">
                         
                       </div>
