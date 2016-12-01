@@ -90,6 +90,7 @@ function loadLoggedInUser (username) {
                         
         </div>
         <a href="/logout">Logout</a>
+        <script type="text/javascript" src="../ui/article.js"></script>
     `;
 }
 
