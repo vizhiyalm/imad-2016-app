@@ -57,7 +57,8 @@
             	    <ul>
             	        <li class="col"> 
                 	        <div class="item 1">
-                	            <a href="images/anchorHospital.jpg" target="_blank" media="screen and (device-width:500px)">
+                	            <a href=#anchor class="imgAnchor"> 
+                	            <!--target="_blank" media="screen and (device-width:500px)">-->
                 	                <div class="label">
                 	                    <h3>
                 	                        Anchor hospital
@@ -356,6 +357,18 @@
         
 	</div>
 	
+	<div id="anchor" class="right"> 
+	    <div class="topic">
+	        <h3>Anchor Hospital</h3>
+	        
+	    </div>
+	    <hr>
+	    <p>zsrgesth</p>
+        <div class="padleft">
+            <img src="images/anchorHospital.jpg">
+        </div>
+	    
+	</div>
 
     
 </div>	
@@ -372,6 +385,7 @@ $(document).ready(function(){
         $('#blogPage').hide();
         $('#aboutPage').hide();
         $('#loginPage').hide();
+        $('#anchor').hide();
     });
 
     $(".listBlog").click(function(){
@@ -380,6 +394,7 @@ $(document).ready(function(){
         $('#blogPage').show();
         $('#aboutPage').hide();
         $('#loginPage').hide();
+        $('#anchor').hide();
 
     });
 
@@ -389,6 +404,7 @@ $(document).ready(function(){
         $('#blogPage').hide();
         $('#aboutPage').show();
         $('#loginPage').hide();
+        $('#anchor').hide();
     });
     
     $(".listLogin").click(function(){
@@ -397,9 +413,19 @@ $(document).ready(function(){
         $('#blogPage').hide();
         $('#aboutPage').hide();
           $('#loginPage').show();
+          $('#anchor').hide();
 
     });
+    
+     $(".imgAnchor").click(function(){
+        
+        $('#portfolioPage').hide();
+        $('#blogPage').hide();
+        $('#aboutPage').hide();
+          $('#loginPage').hide();
+          $('#anchor').show();
 
+    });
 $(".menu li").click(function(){
 
     $(".menu li").removeClass("active");
