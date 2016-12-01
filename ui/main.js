@@ -87,7 +87,7 @@ function loadLoggedInUser (username) {
     loginArea.innerHTML = `
         <h3> Hi <i>${username}</i></h3>
         <div id="comment_form" style="background-color:yellow;">
-                        
+        <h3>hg,j</h3>                
         </div>
         <a href="/logout">Logout</a>
         <!--<script type="text/javascript" src="../ui/main.js"></script>-->
