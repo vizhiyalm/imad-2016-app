@@ -91,9 +91,7 @@ function createTemplate (data) {
         	    <div class="padleft">
         	          <hr>
         	          <h3>Comments</h3>
-                      <div id="comment_form">
-                        
-                      </div>
+                      
                       <div id="comments">
                         <center>Loading comments...</center>
                         <br/>
