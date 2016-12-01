@@ -47,7 +47,7 @@ function createTemplate (data) {
               </div>
     	<div class="left">
     	    <div class="innerleft">
-        		<span class="propic"><img src="../images/propicl.png"></span>
+        		<span class="propic"><img src="../images/propics.png"></span>
         		<h2>KAYALVIZHI</h2>
     		    <h4>Web Designer / Web Developer</h4>
         		
