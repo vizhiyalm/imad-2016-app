@@ -2,7 +2,7 @@
 function loadLoginForm () {
     var loginHtml = `
         <h3>Login/Register to Comment this article</h3>
-        <br/><br/>
+        <hr>
         <input type="text" id="username" placeholder="username" />
         <input type="password" id="password" placeholder="Password" />
         <br/><br/>
