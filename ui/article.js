@@ -77,11 +77,12 @@ function loadComments () {
                 for (var i=0; i< commentsData.length; i++) {
                     var time = new Date(commentsData[i].timestamp);
                     content += `<div class="comment">
-                        <p>${escapeHTML(commentsData[i].comment)}</p>
+                        
                         <div class="commenter">
-                            ${commentsData[i].username}<br/> 
+                            <strong>${commentsData[i].username}</strong><br/> 
                             <h5>${time.toLocaleTimeString()} on ${time.toLocaleDateString()} </h5>
                         </div>
+                        <p>${escapeHTML(commentsData[i].comment)}</p>
                         <hr>
                     </div>`;
                 }
