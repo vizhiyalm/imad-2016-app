@@ -92,7 +92,7 @@ h5{color:#0f9d58; padding:3px 0 15px 0;font-weight:normal;}
 /*#comment_form{background-color:red;}*/
 .comment hr{margin-top:30px;}
 #comment_form a{padding:5px 15px;background-color:#0f9d58;}
-.comment :last-child hr{dispaly:none;}
+.comment:last-child hr{display:none;}
  
 
 #cat{display: block;}
