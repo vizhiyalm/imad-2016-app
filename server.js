@@ -87,11 +87,11 @@ function createTemplate (data) {
                 <div class="padleft">
                   ${content}
                 </div>
-                
-        	    <div class="padleft">
-        	          
-        	          <h3>Comments</h3>
-                      <hr>
+                <div class="topic">
+    	            <h3>Comments</h3>
+    	        </div>
+    	        <hr>
+        	    <div class="comments padleft">
                       <span class="grnline"></span>
                       <div id="comments">
                         <center>Loading comments...</center>
