@@ -88,6 +88,8 @@ function loadLoggedInUser (username) {
         
         <div id="comment_form" >
             <h3> Hi <i style="color:#0f9d58;">${username}</i> Leave a comment</h3>
+            <span class="grnline"></span>
+            <hr>
         <textarea id="comment_text" rows="5" cols="100" placeholder="Enter your comment here..."></textarea>
         <br/>
         <div>
