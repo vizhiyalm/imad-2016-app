@@ -103,11 +103,11 @@ function createTemplate (data) {
                       </div>
                 </div>
                 
-                <div class="padleft">
-                    <div id="login_area">
-            	        <center>Loading...</center>
-            	    </div>
+                
+                <div id="login_area">
+        	        <center>Loading...</center>
         	    </div>
+        	    
               
               
     	    </div>
