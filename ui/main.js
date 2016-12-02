@@ -87,10 +87,10 @@ function loadLoggedInUser (username) {
     loginArea.innerHTML = `
         <h3> Hi <i>${username}</i></h3>
         <div id="comment_form" >
-            <h5>Submit a comment</h5>
+            <h5>Leave a comment</h5>
         <textarea id="comment_text" rows="5" cols="100" placeholder="Enter your comment here..."></textarea>
         <br/>
-        <input type="submit" id="submit" value="Submit" />
+        <a><input type="submit" id="submit" value="Post a comment" /></a>
         <a href="/logout">Logout</a>
         <br/>            
         </div>
