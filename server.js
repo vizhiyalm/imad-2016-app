@@ -89,9 +89,10 @@ function createTemplate (data) {
                 </div>
                 
         	    <div class="padleft">
-        	          <hr>
+        	          
         	          <h3>Comments</h3>
-                      
+                      <hr>
+                      <span class="grnline"></span>
                       <div id="comments">
                         <center>Loading comments...</center>
                         <br/>
