@@ -40,7 +40,7 @@ function loadComments () {
                     content += `<div class="comment">
                         
                         <div class="commenter">
-                            <strong>${commentsData[i].username}</strong><br/> 
+                            <strong>${commentsData[i].username}</strong> made a comment<br/> 
                             <h5>${time.toLocaleTimeString()} on ${time.toLocaleDateString()} </h5>
                         </div>
                         <p>${escapeHTML(commentsData[i].comment)}</p>
