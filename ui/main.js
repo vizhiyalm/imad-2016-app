@@ -94,7 +94,7 @@ function loadLoggedInUser (username) {
     loginArea.innerHTML = `
         
         <div id="comment_form" >
-            <div class="logreg padleft">
+            <div class="logreg topic">
                 <h3> Hi <i style="color:#0f9d58;">${username}</i> Leave a comment</h3>
                 <span class="grnline"></span>
             </div>
