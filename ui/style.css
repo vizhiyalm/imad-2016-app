@@ -9,8 +9,8 @@ ul,li {list-style-type:none;}
 
 
 .left li .active{background-color: #0f9d58;color:#fff;}
-.left li:hover{background-color: #0f9d58;}
-.left li:hover a{color:#fff;}
+.left li:hover{background-color: #0f9d58;opacity:0.3;}
+/*.left li:hover a{color:#fff;}*/
 .menu{margin-top:30px;}
 .menu>ul:first-child {border-top: 1px solid #f1f1f1;}
 .left li{border-bottom: 1px solid #bbb; padding: 15px 0;color:#333333; font-size: 14px;background-color:#dddddd;}
@@ -36,11 +36,7 @@ ul,li {list-style-type:none;}
 .ftr li:hover a{color: #0f9d58;}
 .ftr li.act{border-bottom:2px solid #0f9d58;}
 .frt li.act a{color: #0f9d58;}
-/*.ftr a .act{ border-bottom:2px solid #0f9d58;color: #0f9d58;}*/
-/*.ftr a:hover { border-bottom:2px solid #0f9d58;color: #0f9d58;}*/
-/*.ftr:hover a{color: #0f9d58;}*/
 
-/*.ftr .active {background-color:#cccccc; border-bottom:#0f9d58;}*/
 .ftr .act a{color: #0f9d58;}
 .ft{text-align: center;padding-bottom:30px; padding-left:38.5%;}
 .ftr a{font-weight:bold;font-size:14px;padding: 3px 15px;}
