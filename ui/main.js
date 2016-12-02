@@ -122,6 +122,8 @@ function loadLoggedInUser (username) {
         request.setRequestHeader('Content-Type', 'application/json');
         request.send(JSON.stringify({comment: comment}));  
         submit.value = 'Submitting...';
+        
+    };
 }
 
 function loadLogin () {
