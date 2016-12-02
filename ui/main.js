@@ -85,9 +85,9 @@ function loadLoginForm () {
 function loadLoggedInUser (username) {
     var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
-        <h3> Hi <i style="color:#0f9d58;">${username}</i></h3>
+        
         <div id="comment_form" >
-            <h3>Leave a comment</h3>
+            <h3> Hi <i style="color:#0f9d58;">${username}</i> Leave a comment</h3>
         <textarea id="comment_text" rows="5" cols="100" placeholder="Enter your comment here..."></textarea>
         <br/>
         <div>
