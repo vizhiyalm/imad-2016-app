@@ -90,8 +90,11 @@ function loadLoggedInUser (username) {
             <h3>Leave a comment</h3>
         <textarea id="comment_text" rows="5" cols="100" placeholder="Enter your comment here..."></textarea>
         <br/>
-        <a><input type="submit" id="submit" value="Post a comment" /></a>
+        <div>
+        <!--<a><input type="submit" id="submit" value="Post a comment" /></a>-->
+        <a href="#" id="submit">Post a comment</a>
         <a href="/logout">Logout</a>
+        </div>
         <br/>            
         </div>
         
