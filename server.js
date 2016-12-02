@@ -102,7 +102,7 @@ function createTemplate (data) {
                         <hr>
                       </div>
                 </div>
-                <hr>
+                
                 <div class="padleft">
                     <div id="login_area">
             	        <center>Loading...</center>
