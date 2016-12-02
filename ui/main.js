@@ -86,8 +86,8 @@ function loadLoggedInUser (username) {
     var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
         <h3> Hi <i>${username}</i></h3>
-        <div id="comment_form" style="background-color:yellow;">
-        <h3>hg,j</h3>                
+        <div id="comment_form" >
+                        
         </div>
         <a href="/logout">Logout</a>
         <script type="text/javascript" src="../ui/article.js"></script>
