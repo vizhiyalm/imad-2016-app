@@ -71,8 +71,10 @@ function createTemplate (data) {
     	<div class="right">
     	    <div class="topic">
     	        <h3>My Blog</h3>
+    	        <div class="line"></div>
     	    </div>
     	    <hr>
+    	    
     	    <div class="padleft">
     	        <div  style="padding-bottom:30px;">
     	            <span style="float:left;">
