@@ -1,7 +1,7 @@
 
 function loadLoginForm () {
     var loginHtml = `
-        <div class="padleft">
+        <div class="logreg padleft">
             <h3>Login/Register to Comment this article</h3>
             <span class="grnline"></span>
         </div>
