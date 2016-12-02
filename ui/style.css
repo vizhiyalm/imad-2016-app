@@ -56,8 +56,9 @@ ul,li {list-style-type:none;}
 .label:hover{z-index:2;opacity:0.9;}
 .label h3{font-size: 16px;bottom: 0;left: 0;margin: auto;position: absolute;right: 0;top: 0;height: 55px}
 
-.line{ border-bottom:2px solid #0f9d58;width:60px;position:absolute;top:93px; padding:0 7px;}
-.grnline{ border-bottom:2px solid #0f9d58;width:60px;}
+.line{ border-bottom:2px solid #0f9d58;width:60px;position:absolute;top:93px; margin:0 7px;}
+.comments{position:relative;}
+.grnline{ border-bottom:2px solid #0f9d58;width:60px;position:absolute;top:93px;}
 .topic{padding:30px 0 12px 40px;}
 hr {opacity:0.2; margin-bottom:35px;position:relative;}
 
