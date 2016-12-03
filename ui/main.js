@@ -7,10 +7,12 @@ function loadLoginForm () {
         </div>
         <hr>
         <div class="padleft">
+            <div class="text">
             <input type="text" id="username" placeholder="username" />
             <input type="password" id="password" placeholder="Password" />
+            </div>
             <br/><br/>
-            <div">
+            <div>
                 <input type="submit" id="login_btn" value="Login" />
                 <input type="submit" id="register_btn" value="Register" />
             </div>
