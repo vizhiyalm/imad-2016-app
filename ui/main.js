@@ -9,6 +9,7 @@ function loadLoginForm () {
         <div class="padleft">
             <div class="text">
             <input type="text" id="username" placeholder="username" />
+            <br/>
             <input type="password" id="password" placeholder="Password" />
             </div>
             <br/><br/>
