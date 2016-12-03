@@ -29,7 +29,7 @@ ul,li {list-style-type:none;}
 
 .name div{padding-left:33px;}
 
-.right{width:75%;overflow: hidden;float:right;background-color: #fff;}
+.right{width:75%;overflow: hidden;float:right;background-color: #fff;padding-bottom:60px;}
 .padleft{padding:0 40px 20px 40px;}
 /*.ftr li .active{border-bottom:2px solid #0f9d58;}*/
 
