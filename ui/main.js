@@ -12,7 +12,7 @@ function loadLoginForm () {
             <input type="password" id="password" placeholder="Password" />
             </div>
             <br/><br/>
-            <div>
+            <div class="btn">
                 <input type="submit" id="login_btn" value="Login" />
                 <input type="submit" id="register_btn" value="Register" />
             </div>
