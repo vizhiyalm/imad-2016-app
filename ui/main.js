@@ -106,16 +106,23 @@ function loadLoggedInUser (username) {
         <div class="padleft">
             <textarea id="comment_text" rows="5" cols="100" placeholder="Enter your comment here..."></textarea>
             <br/>
-            <div style="float:right;>
+            // <div style="float:right;>
                
-                <a href="#" id="submit">Post a comment</a>
-                <a href="/logout">Logout</a>
+            //     <a href="#" id="submit">Post a comment</a>
+            //     <a href="/logout">Logout</a>
+            // </div>
+            <div class="btn">
+                <input type="submit" id="submit" value="Post a comment" />
+                <input type="submit" id="logout" value="Logout" />
             </div>
         </div>
         <br/>            
         </div>
         
     `;
+      var logout= document.getElementById('logout');
+    logout.onclick = delete session.auth;
+    
      var submit = document.getElementById('submit');
     submit.onclick = function () {
         // Create a request object
