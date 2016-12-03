@@ -51,6 +51,7 @@ ul,li {list-style-type:none;}
 .label{position:absolute;opacity:0; background-color: #efefef;height:100%; width:100%; text-align:center;}
 .label:hover{z-index:2;opacity:0.9;}
 .label h3{font-size: 16px;bottom: 0;left: 0;margin: auto;position: absolute;right: 0;top: 0;height: 55px}
+.back{background-color:#0f9d58;padding:5px 10px;}
 
 .line{ border-bottom:2px solid #0f9d58;width:60px;position:absolute;top:93px; }
 .comments ,.prof,.education,.crs,#comment_form,.logreg {position:relative;}
