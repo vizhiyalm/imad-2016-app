@@ -98,5 +98,6 @@ h5{color:#0f9d58; padding:3px 0 15px 0;font-weight:normal;}
  
  input{border:1px solid #ccc; border-radius:6px;padding-left: 15px;opacity:0.5;}
 .text input{width: 350px;height: 40px;}
+.btn{background-color:#0f9d58;}
 #cat{display: block;}
 
