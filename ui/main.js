@@ -6,7 +6,7 @@ function loadLoginForm () {
             <span class="grnline"></span>
         </div>
         <hr>
-        <div class="padleft">
+        <div class="loginform padleft">
             <div class="text">
             <input type="text" id="username" placeholder="Username" />
             <br/>
