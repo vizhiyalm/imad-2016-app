@@ -106,7 +106,7 @@ function loadLoggedInUser (username) {
         <div class="padleft">
             <textarea id="comment_text" rows="5" cols="100" placeholder="Enter your comment here..."></textarea>
             <br/>
-           
+            
             <div class="btn">
                 <input type="submit" id="submit" value="Post a comment" />
                 <input type="submit" id="logout" value="Logout" />
@@ -116,8 +116,8 @@ function loadLoggedInUser (username) {
         </div>
         
     `;
-      var logout= document.getElementById('logout');
-    logout.onclick = delete session.auth;
+    //   var logout= document.getElementById('logout');
+    // logout.onclick = delete session.auth;
     
      var submit = document.getElementById('submit');
     submit.onclick = function () {
