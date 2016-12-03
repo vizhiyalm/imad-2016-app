@@ -96,8 +96,10 @@ h5{color:#0f9d58; padding:3px 0 15px 0;font-weight:normal;}
 #comment_form a{padding:5px 15px;background-color:#0f9d58;}
 .comment:last-child hr{display:none;}
  
+.loginform{width:40%;}
  input{border:1px solid #ccc; border-radius:10px;padding-left: 15px;}
-.text input{width: 350px;height: 40px;opacity:0.5;}
+.text input{width: 100%;height: 40px;opacity:0.5;}
 .btn input{background-color:#0f9d58;padding:10px 30px; color:#fff;}
+.btn{float:right;}
 #cat{display: block;}
 
