@@ -106,11 +106,7 @@ function loadLoggedInUser (username) {
         <div class="padleft">
             <textarea id="comment_text" rows="5" cols="100" placeholder="Enter your comment here..."></textarea>
             <br/>
-            // <div style="float:right;>
-               
-            //     <a href="#" id="submit">Post a comment</a>
-            //     <a href="/logout">Logout</a>
-            // </div>
+           
             <div class="btn">
                 <input type="submit" id="submit" value="Post a comment" />
                 <input type="submit" id="logout" value="Logout" />
