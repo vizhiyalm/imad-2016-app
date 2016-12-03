@@ -8,8 +8,9 @@ function loadLoginForm () {
         <hr>
         <div class="padleft">
             <div class="text">
-            <input type="text" id="username" placeholder="username" />
+            <input type="text" id="username" placeholder="Username" />
             <br/>
+            <br/><br/>
             <input type="password" id="password" placeholder="Password" />
             </div>
             <br/><br/>
