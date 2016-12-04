@@ -116,8 +116,7 @@ function loadLoggedInUser (username) {
         </div>
         
     `;
-    //   var logout= document.getElementById('logout');
-    // logout.onclick = delete session.auth;
+   
     
      var submit = document.getElementById('submit');
     submit.onclick = function () {
