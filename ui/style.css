@@ -97,7 +97,7 @@ h5{color:#0f9d58; padding:3px 0 15px 0;font-weight:normal;}
 .comment:last-child hr{display:none;}
  
 .loginform{width:40%;}
- input{border:1px solid #ccc; border-radius:10px;padding-left: 15px;}
+ input{border:1px solid #ccc; border-radius:10px;padding-left: 15px;outline: 0 none;}
 .text input{width: 100%;height: 40px;opacity: 0.8;color: #111;}
 .btn input{background-color:#0f9d58;padding:10px 30px; color:#fff;}
 .btn{float:right;}
