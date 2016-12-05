@@ -109,7 +109,8 @@ function loadLoggedInUser (username) {
             
             <div class="btn">
                 <input type="submit" id="submit" value="Post a comment" />
-                <input type="submit" id="logout" value="Logout" />
+                <!--<input type="submit" id="logout" value="Logout" />-->
+                <a href="/logout">Logout</a>
             </div>
         </div>
         <br/>            
