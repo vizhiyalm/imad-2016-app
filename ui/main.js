@@ -13,7 +13,7 @@ function loadLoginForm () {
             <br/>
             <input type="password" id="password" placeholder="Password" />
             </div>
-            <br/><br/>
+            <br/>
             <div class="btn">
                 <input type="submit" id="login_btn" value="Login" />
                 <input type="submit" id="register_btn" value="Register" />
@@ -109,8 +109,8 @@ function loadLoggedInUser (username) {
             
             <div class="btn">
                 <input type="submit" id="submit" value="Post a comment" />
-                <!--<input type="submit" id="logout" value="Logout" />-->
-                <a href="/logout">Logout</a>
+                <a href="/logout"><input type="submit" id="logout" value="Logout" /></a>
+                
             </div>
         </div>
         <br/>            
