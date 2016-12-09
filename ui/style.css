@@ -12,7 +12,7 @@ ul,li {list-style-type:none;}
 .left li .active{background-color: #0f9d58;color:#fff;}
 .left li:hover{background-color: #5ebd8f;}
 /*.left li:hover a{color:#fff;}*/
-.bg{background-color:#333;}
+/*.bg{background-color:#333;}*/
 .menu{margin-top:30px;}
 .menu>ul:first-child {border-top: 1px solid #f1f1f1;}
 .left li{border-bottom: 1px solid #bbb; padding: 15px 0;color:#333333; font-size: 14px;background-color:#dddddd;cursor:pointer;}
@@ -21,7 +21,7 @@ ul,li {list-style-type:none;}
 .left li.active a{color: #fff;}
 
 .left{position:fixed;  float: left ;height: 550px; width: 22.5%;background-color: #fff; }
-.left div{padding-top: 40px ;}
+.left div{padding: 40px 0;}
 .innerleft{ text-align:center;}
  h2{padding-bottom: 2px; padding-top: 5px;}
  h4{ font-weight: normal; font-size:14px;}
@@ -52,7 +52,7 @@ ul,li {list-style-type:none;}
 .item{position:relative; margin-bottom:30px;}
 .label{position:absolute;opacity:0; background-color: #efefef;height:100%; width:100%; text-align:center;}
 .label:hover{z-index:2;opacity:0.9;}
-.label h3{font-size: 16px;bottom: 0;left: 0;margin: auto;position: absolute;right: 0;top: 0;height: 55px}
+h3{font-size: 16px;bottom: 0;left: 0;margin: auto;position: absolute;right: 0;top: 0;height: 55px}
 .back{background-color:#0f9d58;padding:5px 10px;color:#fff;float:right;}
 
 .line{ border-bottom:2px solid #0f9d58;width:60px;position:absolute;top:130px; }
@@ -70,7 +70,7 @@ hr {opacity:0.2; margin-bottom:35px;position:relative;}
 #blogPage,#aboutPage,#loginPage,#anchor,#wisdom,#carme,#mashape,#buttons,#dash,#school {display:none;}
 
 .about{width:46%;}
-.details{width:32%;float:right;position:absolute;top:133px; right:70px;}
+.details{width:32%;float:right;position:absolute;top:168px; right:70px;}
 .details ul{    border: 1px solid #efefef;text-align: center;}
 .details ul li{    border-bottom: 1px solid #efefef;background: #fafafa;font-size: 14px;}
 .details ul li .info{width: 35%;background: #ffffff;left: -1px;position: relative;border-right: 1px solid #efefef;
@@ -88,10 +88,11 @@ p{font-size: 15px;}
 .subject{font-weight:bold;}
 .sub{color:#0f9d58; padding:3px 0 5px 0;font-weight:bold;}
 
-.address{border:1px solid #ddd;}
+.address{border:1px solid #ddd;padding: 20px;text-align: center;position:relative;font-weight:bold;}
+.iconbg{background: #333;position: absolute;height: 80px;width: 80px;left: 50%;border: 15px #fff solid;border-radius: 100%;color:#fff; font-size:20px;line-height:52px;}
 
 .blogs hr{margin-top:15px;}
-.blogs h6{colour:#555555;}
+h6{color:#555555;}
 h5{color:#0f9d58; padding:3px 0 15px 0;font-weight:normal;}
 
 .logindim{ height: 300px; width: 300px;}
