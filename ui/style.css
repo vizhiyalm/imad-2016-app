@@ -93,7 +93,7 @@ p{font-size: 15px;}
 .iconul li{ display: inline-block;position: relative;}
 .mar{    margin: 86px 0;}
 
-.redbg{background: #0f9d58;position: absolute;height: 63px;width: 63px;left: 40%;top:40px;border: 15px #fff solid;border-radius: 100%;line-height:75px;right:10px;}
+.redbg{background: #0f9d58;position: absolute;height: 63px;width: 63px;left: 44%;top:40px;border: 15px #fff solid;border-radius: 100%;line-height:75px;top:-50px;}
 
 .blogs hr{margin-top:15px;}
 h6{color:#555555;}
