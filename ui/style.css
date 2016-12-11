@@ -85,7 +85,7 @@ p{font-size: 15px;}
 .progress{margin:12px 0 25px; height:13px;border:1px solid #0f9d58; border-radius:7px;background-color:#fff;position:relative;}
 .percentage{background-color:#0f9d58; bottom: 0;position: absolute;top: 0;}
 
-.subject{font-weight:bold;}
+.subject{font-weight:bold;font-size:17px;}
 .sub{color:#0f9d58; padding:3px 0 5px 0;font-weight:bold;}
 
 .address{border:1px solid #ddd;padding: 20px;text-align: center;position:relative;font-weight:bold;}
@@ -97,7 +97,7 @@ p{font-size: 15px;}
 .redbg{background: #0f9d58;position: absolute;height: 63px;width: 63px;left: 44%;top:40px;border: 15px #fff solid;border-radius: 100%;line-height:75px;top:-50px;}
 
 .blogs hr{margin-top:15px;}
-h6{color:#999;}
+h6{color:#999;font-style:italic;}
 h5{color:#0f9d58; padding:3px 0 15px 0;font-weight:normal;}
 
 .logindim{ height: 300px; width: 300px;}
