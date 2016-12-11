@@ -89,7 +89,7 @@ p{font-size: 15px;}
 .sub{color:#0f9d58; padding:3px 0 5px 0;font-weight:bold;}
 
 .address{border:1px solid #ddd;padding: 20px;text-align: center;position:relative;font-weight:bold;}
-/*.address p{padding: 45px;}*/
+
 .iconbg{background: #333;position: absolute;height: 50px;width: 50px;left: 38%;top:28px;border: 15px #fff solid;border-radius: 100%;line-height:58px;right:10px;}
 .iconul li{ display: inline-block;position: relative;}
 .mar{ margin: 86px 0;}
@@ -97,7 +97,7 @@ p{font-size: 15px;}
 .redbg{background: #0f9d58;position: absolute;height: 63px;width: 63px;left: 44%;top:40px;border: 15px #fff solid;border-radius: 100%;line-height:75px;top:-50px;}
 
 .blogs hr{margin-top:15px;}
-h6{color:#555555;}
+h6{color:#999;}
 h5{color:#0f9d58; padding:3px 0 15px 0;font-weight:normal;}
 
 .logindim{ height: 300px; width: 300px;}
